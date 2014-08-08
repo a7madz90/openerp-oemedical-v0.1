@@ -1,0 +1,3626 @@
+# Brazilian Portuguese translation for oemedical
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the oemedical package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: oemedical\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2012-12-03 17:04+0000\n"
+"PO-Revision-Date: 2013-07-28 12:26+0000\n"
+"Last-Translator: Claudio de Araujo Santos <claudioaraujosantos@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-08-07 05:01+0000\n"
+"X-Generator: Launchpad (build 16721)\n"
+
+#. module: oemedical
+#: field:oemedical.patient.evaluation,mood:0
+msgid "Mood"
+msgstr "Humor"
+
+#. module: oemedical
+#: help:oemedical.prescription.line,short_comment:0
+msgid "Short comment on the specific drug"
+msgstr "Breve comentário para a droga específica"
+
+#. module: oemedical
+#: model:ir.actions.act_window,name:oemedical.act_open_oemedical_diagnostic_hypothesis_view
+msgid "Diagnostic Hypothesis"
+msgstr "Hipótese de Diagnóstico"
+
+#. module: oemedical
+#: model:ir.model,name:oemedical.model_product_product
+#: view:oemedical.medicament:0
+#: field:oemedical.medicament,product:0
+msgid "Product"
+msgstr "Produto"
+
+#. module: oemedical
+#: view:oemedical.medicament.category:0
+#: field:oemedical.medicament.category,parent_id:0
+msgid "Parent"
+msgstr "Filiação"
+
+#. module: oemedical
+#: help:oemedical.medication.template,end_treatment:0
+#: help:oemedical.medication.template,start_treatment:0
+msgid "Date of start of Treatment"
+msgstr "Data do Início do Tratamento"
+
+#. module: oemedical
+#: selection:oemedical.hospital.bed,bed_type:0
+msgid "Low Air Loss"
+msgstr "Falta de Ar"
+
+#. module: oemedical
+#: field:oemedical.patient.evaluation,loc_verbal:0
+msgid "Glasgow - Verbal"
+msgstr "Glasgow - Verbal"
+
+#. module: oemedical
+#: view:oemedical.medication.dosage:0
+msgid "Oemedical Medication Dosage"
+msgstr "Oemedical Dosagem do medicamento"
+
+#. module: oemedical
+#: view:oemedical.prescription.line:0
+#: field:oemedical.prescription.line,quantity:0
+msgid "Quantity"
+msgstr "Quantidade"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,respiratory_rate:0
+msgid "Respiratory Rate"
+msgstr "Frequência Fespiratória"
+
+#. module: oemedical
+#: model:ir.actions.act_window,name:oemedical.act_open_oemedical_physician_view
+#: view:oemedical.appointment:0
+#: field:oemedical.appointment,doctor:0
+#: view:oemedical.patient.disease:0
+#: field:oemedical.patient.disease,doctor:0
+#: view:oemedical.patient.medication:0
+#: field:oemedical.patient.medication,doctor:0
+msgid "Physician"
+msgstr "Médico"
+
+#. module: oemedical
+#: view:oemedical.insurance:0
+msgid "Oemedical Insurance"
+msgstr "Oemedical Seguro"
+
+#. module: oemedical
+#: model:ir.model,name:oemedical.model_oemedical_patient_disease
+msgid "oemedical.patient.disease"
+msgstr "oemedical.patient.disease"
+
+#. module: oemedical
+#: model:ir.actions.act_window,name:oemedical.act_open_oemedical_hospital_or_view
+msgid "Hospital Or"
+msgstr "Hospital Or"
+
+#. module: oemedical
+#: model:ir.model,name:oemedical.model_oemedical_hospital_building
+msgid "oemedical.hospital.building"
+msgstr "oemedical.hospital.building"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,object_recognition:0
+msgid "Object Recognition"
+msgstr "Reconhecimento de Objetos"
+
+#. module: oemedical
+#: help:res.partner,is_insurance_company:0
+msgid "Check if the party is an Insurance Company"
+msgstr "Marque se o parceiro é uma Seguradora"
+
+#. module: oemedical
+#: view:oemedical.patient.disease:0
+#: field:oemedical.patient.disease,pregnancy_warning:0
+msgid "Pregnancy warning"
+msgstr "Cuidados na gestação"
+
+#. module: oemedical
+#: help:oemedical.patient.evaluation,vocabulary:0
+msgid ""
+"Check this box if the patient lacks basic intelectual capacity, when she/he "
+"can not describe elementary objects"
+msgstr ""
+"Marque este item se o paciente não tem capacidade intelectual básica, quando "
+"ela / ele não pode descrever objetos elementares"
+
+#. module: oemedical
+#: view:oemedical.medication.template:0
+#: field:oemedical.medication.template,dose:0
+msgid "Dose"
+msgstr "Dosagem"
+
+#. module: oemedical
+#: model:ir.model,name:oemedical.model_res_partner
+msgid "Partner"
+msgstr "Parceiro"
+
+#. module: oemedical
+#: model:ir.model,name:oemedical.model_oemedical_medicament
+msgid "oemedical.medicament"
+msgstr "oemedical.medicament"
+
+#. module: oemedical
+#: view:oemedical.patient.disease:0
+#: field:oemedical.patient.disease,is_infectious:0
+msgid "Infectious Disease"
+msgstr "Doença contagiosa"
+
+#. module: oemedical
+#: model:ir.actions.act_window,name:oemedical.act_open_oemedical_occupation_view
+msgid "Occupation"
+msgstr "Profissão"
+
+#. module: oemedical
+#: view:oemedical.vaccination:0
+#: field:oemedical.vaccination,dose:0
+msgid "Dose #"
+msgstr "Dosagem #"
+
+#. module: oemedical
+#: model:ir.model,name:oemedical.model_oemedical_medication_template
+msgid "oemedical.medication.template"
+msgstr "oemedical.medication.template"
+
+#. module: oemedical
+#: model:ir.ui.menu,name:oemedical.oemedical_specialty
+msgid " Specialty"
+msgstr " Especialidade"
+
+#. module: oemedical
+#: selection:oemedical.patient.disease,status:0
+msgid "healed"
+msgstr "curado"
+
+#. module: oemedical
+#: selection:oemedical.patient.evaluation,loc_eyes:0
+msgid "Opens eyes in response to painful stimuli"
+msgstr "Abre os olhos em resposta a estímulos dolorosos"
+
+#. module: oemedical
+#: selection:oemedical.insurance,insurance_type:0
+#: selection:res.partner,insurance_company_type:0
+msgid "State"
+msgstr "Situação"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,bpm:0
+msgid "Heart Rate"
+msgstr "Frequência cardíaca"
+
+#. module: oemedical
+#: view:oemedical.patient:0
+#: field:oemedical.patient,childbearing_age:0
+msgid "Potential for Childbearing"
+msgstr "Potencial para Fertilidade"
+
+#. module: oemedical
+#: help:oemedical.medicament,active_component:0
+msgid "Active Component"
+msgstr "Componente Ativo"
+
+#. module: oemedical
+#: view:oemedical.medicament:0
+#: field:oemedical.medicament,therapeutic_action:0
+msgid "Therapeutic effect"
+msgstr "Efeito terapeutico"
+
+#. module: oemedical
+#: model:ir.actions.act_window,name:oemedical.act_open_oemedical_patient_view
+#: view:oemedical.appointment:0
+#: field:oemedical.appointment,patient:0
+#: view:oemedical.patient:0
+#: field:oemedical.patient,patient:0
+#: view:oemedical.patient.disease:0
+#: field:oemedical.patient.disease,patient_id:0
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,patient:0
+#: view:oemedical.patient.medication:0
+#: field:oemedical.patient.medication,name:0
+#: field:oemedical.patient.medication,patient:0
+#: view:oemedical.prescription.order:0
+#: field:oemedical.prescription.order,patient:0
+#: view:oemedical.vaccination:0
+#: field:oemedical.vaccination,patient_id:0
+#: field:res.partner,is_patient:0
+msgid "Patient"
+msgstr "Paciente"
+
+#. module: oemedical
+#: view:oemedical.drug.form:0
+#: field:oemedical.drug.form,name:0
+#: view:oemedical.medication.template:0
+#: field:oemedical.medication.template,form:0
+msgid "Form"
+msgstr "Formulário"
+
+#. module: oemedical
+#: view:oemedical.pathology.category:0
+msgid "Oemedical Pathology Category"
+msgstr "Oemedical Categoria Patologia"
+
+#. module: oemedical
+#: help:oemedical.medication.dosage,abbreviation:0
+msgid "Dosage abbreviation, such as tid in the US or tds in the UK"
+msgstr "Abreviatura dosagem, como tid em nos EUA ou no Reino Unido"
+
+#. module: oemedical
+#: field:oemedical.patient,vaccinations:0
+msgid "Vaccinations"
+msgstr "Vacinas"
+
+#. module: oemedical
+#: model:ir.ui.menu,name:oemedical.oemedical_patient_evaluation
+msgid " Patient Evaluation"
+msgstr " Avaliação do Paciente"
+
+#. module: oemedical
+#: model:ir.model,name:oemedical.model_oemedical_procedure
+msgid "oemedical.procedure"
+msgstr "oemedical.procedure"
+
+#. module: oemedical
+#: help:oemedical.medication.template,frequency_prn:0
+msgid "Use it as needed, pro re nata"
+msgstr "Use-o como necessário, pro re nata"
+
+#. module: oemedical
+#: view:oemedical.patient.disease:0
+#: field:oemedical.patient.disease,diagnosed_date:0
+msgid "Date of Diagnosis"
+msgstr "Data do Giagnóstico"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,ldl:0
+msgid "Last LDL"
+msgstr "Último LDL"
+
+#. module: oemedical
+#: view:oemedical.pathology.category:0
+#: field:oemedical.pathology.category,parent_id:0
+msgid "Parent Category"
+msgstr "Categoria superior(pai)"
+
+#. module: oemedical
+#: view:oemedical.patient:0
+#: field:oemedical.patient,age:0
+msgid "Age"
+msgstr "Idade"
+
+#. module: oemedical
+#: selection:oemedical.patient.evaluation,evaluation_type:0
+msgid "Periodic control"
+msgstr "Controle Periódico"
+
+#. module: oemedical
+#: selection:oemedical.medication.template,duration_period:0
+#: selection:oemedical.medication.template,frequency_unit:0
+msgid "hours"
+msgstr "horas"
+
+#. module: oemedical
+#: field:res.partner,relative_id:0
+msgid "Contact"
+msgstr "Contato"
+
+#. module: oemedical
+#: view:oemedical.specialty:0
+msgid "Oemedical Specialty"
+msgstr "Oemedical Especialidade"
+
+#. module: oemedical
+#: field:oemedical.medication.template,duration_period:0
+msgid "Treatment period"
+msgstr "Período de tratamento"
+
+#. module: oemedical
+#: view:oemedical.appointment:0
+#: field:oemedical.appointment,consultations:0
+#: help:oemedical.appointment,consultations:0
+msgid "Consultation Services"
+msgstr "Serviços de consulta"
+
+#. module: oemedical
+#: model:ir.model,name:oemedical.model_oemedical_diagnostic_hypothesis
+msgid "oemedical.diagnostic_hypothesis"
+msgstr "oemedical.diagnostic_hypothesis"
+
+#. module: oemedical
+#: field:res.partner,lastname:0
+#: help:res.partner,lastname:0
+msgid "Last Name"
+msgstr "Sobrenome"
+
+#. module: oemedical
+#: help:oemedical.hospital.ward,private:0
+msgid "Check this option for private room"
+msgstr "Marque esta opção para quarto privativo"
+
+#. module: oemedical
+#: view:oemedical.medicament:0
+#: field:oemedical.medicament,adverse_reaction:0
+#: view:oemedical.patient.medication:0
+#: field:oemedical.patient.medication,adverse_reaction:0
+msgid "Adverse Reactions"
+msgstr "Reações Adversas"
+
+#. module: oemedical
+#: help:oemedical.patient.evaluation,tremor:0
+msgid ""
+"If associated  to a disease, please encode it on the patient disease history"
+msgstr ""
+"Se associado a uma doença, por favor,  incluí-lo no histórico de doença do "
+"paciente"
+
+#. module: oemedical
+#: model:ir.actions.act_window,name:oemedical.act_open_oemedical_operational_sector_view
+#: view:oemedical.family:0
+#: field:oemedical.family,operational_sector:0
+#: field:oemedical.operational_area,operational_sector:0
+msgid "Operational Sector"
+msgstr "Setor Operacional"
+
+#. module: oemedical
+#: help:oemedical.patient.evaluation,respiratory_rate:0
+msgid "Respiratory rate expressed in breaths per minute"
+msgstr "A freqüência respiratória expressa em respirações por minuto"
+
+#. module: oemedical
+#: view:oemedical.insurance:0
+#: field:oemedical.insurance,owner:0
+msgid "Owner"
+msgstr "Proprietário"
+
+#. module: oemedical
+#: constraint:product.product:0
+msgid ""
+"You provided an invalid \"EAN13 Barcode\" reference. You may use the "
+"\"Internal Reference\" field instead."
+msgstr ""
+"Você forneceu um \"código de barras EAN13\" inválido. Você pode usar o campo "
+"\"referência interna\" em seu lugar."
+
+#. module: oemedical
+#: view:oemedical.prescription.order:0
+#: field:oemedical.prescription.order,user_id:0
+msgid "Prescribing Doctor"
+msgstr "Prescrição Médica"
+
+#. module: oemedical
+#: view:oemedical.insurance:0
+#: field:oemedical.insurance,category:0
+#: view:oemedical.medicament:0
+#: field:oemedical.medicament,category:0
+msgid "Category"
+msgstr "Categoria"
+
+#. module: oemedical
+#: model:ir.actions.act_window,name:oemedical.act_open_oemedical_prescription_order_view
+msgid "Prescription Order"
+msgstr "Pedido de Prescrição"
+
+#. module: oemedical
+#: model:ir.model,name:oemedical.model_oemedical_pathology_category
+msgid "oemedical.pathology.category"
+msgstr "oemedical.pathology.category"
+
+#. module: oemedical
+#: view:oemedical.disease_group.members:0
+#: field:oemedical.disease_group.members,disease_group_id:0
+msgid "Group"
+msgstr "Grupo"
+
+#. module: oemedical
+#: help:oemedical.family_member,member:0
+msgid "Family Member Name"
+msgstr "Nome do membro da família"
+
+#. module: oemedical
+#: help:oemedical.patient.disease,is_infectious:0
+msgid "Check if the patient has an infectioustransmissible disease"
+msgstr "Verifique se o paciente tem uma doença infectocontagiosa"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,doctor:0
+msgid "Doctor"
+msgstr "Doutor"
+
+#. module: oemedical
+#: help:res.partner,is_patient:0
+msgid "Check if the party is a patient"
+msgstr "Marque se o parceiro é um paciente"
+
+#. module: oemedical
+#: field:oemedical.family_member,member:0
+msgid "Member"
+msgstr "Membro"
+
+#. module: oemedical
+#: help:oemedical.patient.evaluation,height:0
+msgid "Height in centimeters, eg 175"
+msgstr "Altura em centímetros, por exemplo, 175"
+
+#. module: oemedical
+#: model:ir.model,name:oemedical.model_oemedical_insurance
+msgid "oemedical.insurance"
+msgstr "oemedical.insurance"
+
+#. module: oemedical
+#: help:oemedical.physician,health_professional:0
+msgid "Health Professional's Name, from the partner list"
+msgstr "Nome do Profissional de Saúde, a partir da lista de parceiros"
+
+#. module: oemedical
+#: view:oemedical.diagnostic_hypothesis:0
+#: field:oemedical.diagnostic_hypothesis,evaluation_id:0
+#: view:oemedical.directions:0
+#: field:oemedical.directions,evaluation_id:0
+#: view:oemedical.secondary_condition:0
+#: field:oemedical.secondary_condition,evaluation_id:0
+#: view:oemedical.signs_and_symptoms:0
+#: field:oemedical.signs_and_symptoms,evaluation_id:0
+msgid "Evaluation"
+msgstr "Avaliação"
+
+#. module: oemedical
+#: view:oemedical.drug.form:0
+msgid "Oemedical Drug Form"
+msgstr "Oemedical Formulário de medicação"
+
+#. module: oemedical
+#: model:ir.model,name:oemedical.model_oemedical_ethnicity
+msgid "oemedical.ethnicity"
+msgstr "oemedical.ethnicity"
+
+#. module: oemedical
+#: field:oemedical.hospital.bed,state:0
+#: field:oemedical.hospital.ward,state:0
+msgid "Status"
+msgstr "Situação"
+
+#. module: oemedical
+#: view:oemedical.vaccination:0
+#: field:oemedical.vaccination,date:0
+msgid "Date"
+msgstr "Data"
+
+#. module: oemedical
+#: help:oemedical.vaccination,institution:0
+msgid "Medical Center where the patient is being or was vaccinated"
+msgstr "Centro Médico, onde o paciente está sendo ou foi vacinado"
+
+#. module: oemedical
+#: help:oemedical.patient.evaluation,hba1c:0
+msgid "Last Glycated Hb level. Can be approximative."
+msgstr "Último nível de Hb glicada. Pode ser aproximada."
+
+#. module: oemedical
+#: selection:oemedical.patient.evaluation,loc_motor:0
+msgid "Makes no movement"
+msgstr "Não faz nenhum movimento"
+
+#. module: oemedical
+#: view:oemedical.medicament.category:0
+msgid "Oemedical Medicament Category"
+msgstr "Oemedical Categoria de Medicamentos"
+
+#. module: oemedical
+#: model:ir.ui.menu,name:oemedical.oemedical_pathology_category
+msgid " Pathology Category"
+msgstr " Categoria Patológica"
+
+#. module: oemedical
+#: model:ir.ui.menu,name:oemedical.oemedical_medication_template
+msgid " Medication Template"
+msgstr " Modelo de Medicação"
+
+#. module: oemedical
+#: field:oemedical.family,members:0
+msgid "Family Members"
+msgstr "Membros de Família"
+
+#. module: oemedical
+#: help:oemedical.patient,general_info:0
+msgid "General information about the patient"
+msgstr "Informação geral sobre o paciente"
+
+#. module: oemedical
+#: model:ir.ui.menu,name:oemedical.oemedical_operational_sector
+msgid " Operational Sector"
+msgstr " Setor Operacional"
+
+#. module: oemedical
+#: view:oemedical.hospital.bed:0
+#: field:oemedical.hospital.bed,name:0
+#: field:product.product,is_bed:0
+msgid "Bed"
+msgstr "Leito"
+
+#. module: oemedical
+#: selection:oemedical.patient.evaluation,loc_motor:0
+msgid "Flexion / Withdrawal to painful stimuli"
+msgstr "Flexão/contração a estímulos dolorosos"
+
+#. module: oemedical
+#: view:oemedical.pathology:0
+#: field:oemedical.pathology,protein:0
+msgid "Protein involved"
+msgstr "Proteína envolvida"
+
+#. module: oemedical
+#: help:oemedical.patient.evaluation,signs_and_symptoms:0
+msgid ""
+"Enter the Signs and Symptoms                                         for the "
+"patient in this evaluation."
+msgstr "Digite os sinais e sintomas para o paciente nesta avaliação."
+
+#. module: oemedical
+#: view:oemedical.vaccination:0
+#: field:oemedical.vaccination,vaccine:0
+#: field:product.product,is_vaccine:0
+msgid "Vaccine"
+msgstr "Vacina"
+
+#. module: oemedical
+#: view:oemedical.medication.template:0
+#: field:oemedical.medication.template,dose_unit:0
+msgid "dose unit"
+msgstr "Undade da Dosagem"
+
+#. module: oemedical
+#: model:ir.actions.act_window,name:oemedical.act_open_oemedical_procedure_view
+#: view:oemedical.directions:0
+#: field:oemedical.directions,procedure_id:0
+msgid "Procedure"
+msgstr "Procedimento"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,praxis:0
+msgid "Praxis"
+msgstr "Praxis"
+
+#. module: oemedical
+#: model:ir.actions.act_window,name:oemedical.act_open_oemedical_family_view
+#: view:oemedical.family:0
+#: field:oemedical.family,name:0
+#: view:oemedical.family_member:0
+#: field:oemedical.family_member,family_id:0
+#: view:oemedical.patient:0
+#: field:oemedical.patient,family:0
+msgid "Family"
+msgstr "Família"
+
+#. module: oemedical
+#: help:oemedical.pathology,protein:0
+msgid "Name of the protein(s) affected"
+msgstr "Nome da(s) proteína(s) afetada(s)"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,height:0
+msgid "Height"
+msgstr "Altura"
+
+#. module: oemedical
+#: field:oemedical.patient,marital_status:0
+msgid "Marital Status"
+msgstr "Estado civil"
+
+#. module: oemedical
+#: help:oemedical.pathology,groups:0
+msgid ""
+"Specify the groups this pathology belongs. Some automated processes act upon "
+"the code of the group"
+msgstr ""
+"Especifique os grupos que esta patologia pertence. Alguns processos "
+"automatizados que agem sobre o código do grupo"
+
+#. module: oemedical
+#: field:oemedical.medicament.category,childs:0
+msgid "Children"
+msgstr "Filhos"
+
+#. module: oemedical
+#: model:ir.actions.act_window,name:oemedical.act_open_oemedical_ethnicity_view
+msgid "Ethnicity"
+msgstr "Relativo a etnia"
+
+#. module: oemedical
+#: model:ir.actions.act_window,name:oemedical.act_open_oemedical_drug_route_view
+msgid "Drug Route"
+msgstr "Rota da droga"
+
+#. module: oemedical
+#: view:oemedical.medicament:0
+#: field:oemedical.medicament,storage:0
+msgid "Storage Conditions"
+msgstr "Condições de armazenagem"
+
+#. module: oemedical
+#: selection:oemedical.patient.disease,allergy_type:0
+msgid "Misc Allergy"
+msgstr "Várias Alergias"
+
+#. module: oemedical
+#: view:oemedical.hospital.ward:0
+#: field:oemedical.hospital.ward,microwave:0
+msgid "Microwave"
+msgstr "Microondas"
+
+#. module: oemedical
+#: model:ir.ui.menu,name:oemedical.oemedical_medicament
+msgid " Medicament"
+msgstr " Medicamento"
+
+#. module: oemedical
+#: view:oemedical.family_member:0
+msgid "Party"
+msgstr "Parceiro"
+
+#. module: oemedical
+#: help:res.partner,internal_user:0
+msgid ""
+"In GNU Health is the user (doctor, nurse) that logins.When the party is a "
+"doctor or a health professional, it will be the user that maps the doctor's "
+"party name. It must be present."
+msgstr ""
+"Em GNU Health é o usuário (médico, enfermeiro) que se conecta. Será o "
+"usuário que é mapeado ao nome do médico parceiro. Ele deve ser preenchido."
+
+#. module: oemedical
+#: view:oemedical.medicament:0
+#: field:oemedical.medicament,composition:0
+msgid "Composition"
+msgstr "Composição"
+
+#. module: oemedical
+#: view:oemedical.directions:0
+msgid "Oemedical Directions"
+msgstr "Oemedical Direções"
+
+#. module: oemedical
+#: selection:oemedical.appointment,urgency:0
+msgid "Urgent"
+msgstr "Urgente"
+
+#. module: oemedical
+#: help:oemedical.medication.template,indication:0
+msgid ""
+"Choose a disease for this medicament from the disease list. It can be an "
+"existing disease of the patient or a prophylactic."
+msgstr ""
+"Escolha uma doença para este medicamento da lista de doenças. Pode ser uma "
+"doença existente do paciente ou de um profilático."
+
+#. module: oemedical
+#: help:oemedical.pathology,category:0
+msgid ""
+"Select the main category for this disease This is usuallyassociated to the "
+"standard. For instance, the chapter on the ICD-10will be the main category "
+"for de disease"
+msgstr ""
+"Selecione a categoria principal para esta doença este é geralmente associado "
+"com o padrão. Por exemplo, o capítulo sobre a CID-10 será a categoria "
+"principal para a doença"
+
+#. module: oemedical
+#: view:oemedical.ethnicity:0
+#: field:oemedical.ethnicity,notes:0
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,notes:0
+msgid "Notes"
+msgstr "Notas"
+
+#. module: oemedical
+#: selection:oemedical.hospital.ward,gender:0
+msgid "Men Ward"
+msgstr "Enfermaria Masculina"
+
+#. module: oemedical
+#: view:oemedical.hospital.ward:0
+#: field:oemedical.hospital.ward,tv:0
+msgid "Television"
+msgstr "Televisão"
+
+#. module: oemedical
+#: help:oemedical.medication.template,common_dosage:0
+msgid "Common / standard dosage frequency for this medicament"
+msgstr "Freqüência de dosagem comum / normal para este medicamento"
+
+#. module: oemedical
+#: model:ir.ui.menu,name:oemedical.oemedical_family
+msgid " Family"
+msgstr " Família"
+
+#. module: oemedical
+#: view:oemedical.disease_group.members:0
+#: field:oemedical.disease_group.members,name:0
+#: view:oemedical.patient.disease:0
+#: field:oemedical.patient.disease,pathology:0
+#: help:oemedical.patient.disease,pathology:0
+msgid "Disease"
+msgstr "Doença"
+
+#. module: oemedical
+#: field:res.partner,alias:0
+msgid "Alias"
+msgstr "Apelido"
+
+#. module: oemedical
+#: field:oemedical.patient.disease,status:0
+msgid "Status of the disease"
+msgstr "Estado da doença"
+
+#. module: oemedical
+#: help:oemedical.medication.template,duration:0
+msgid ""
+"Period that the patient must take the medication. in minutes, hours, days, "
+"months, years or indefinately"
+msgstr ""
+"Período em que o paciente deve tomar a medicação. em minutos, horas, dias, "
+"meses, anos ou indefinidamente"
+
+#. module: oemedical
+#: selection:oemedical.patient.disease,status:0
+msgid "improving"
+msgstr "melhora"
+
+#. module: oemedical
+#: view:oemedical.operational_sector:0
+#: field:oemedical.operational_sector,name:0
+msgid "Op. Sector"
+msgstr "Setor Op."
+
+#. module: oemedical
+#: model:ir.ui.menu,name:oemedical.oemedical_ethnicity
+msgid " Ethnicity"
+msgstr " Relativo a etnia"
+
+#. module: oemedical
+#: view:oemedical.patient:0
+#: field:oemedical.patient,cod:0
+msgid "Cause of Death"
+msgstr "Causa de Morte"
+
+#. module: oemedical
+#: view:oemedical.patient.disease:0
+#: field:oemedical.patient.disease,is_active:0
+msgid "Active disease"
+msgstr "Doença ativa"
+
+#. module: oemedical
+#: view:oemedical.patient:0
+#: field:oemedical.patient,dob:0
+msgid "DoB"
+msgstr "DN"
+
+#. module: oemedical
+#: field:res.partner,internal_user:0
+msgid "Internal User"
+msgstr "Usuário Interno"
+
+#. module: oemedical
+#: model:ir.model,name:oemedical.model_oemedical_specialty
+msgid "oemedical.specialty"
+msgstr "oemedical.specialty"
+
+#. module: oemedical
+#: model:ir.ui.menu,name:oemedical.oemedical_medicament_category
+msgid " Medicament Category"
+msgstr " Categoria do medicamento"
+
+#. module: oemedical
+#: field:oemedical.patient.evaluation,secondary_conditions:0
+msgid "Secondary Conditions"
+msgstr "Condições Secundárias"
+
+#. module: oemedical
+#: selection:oemedical.patient.evaluation,loc_verbal:0
+msgid "Incomprehensible sounds"
+msgstr "Sons incompreensíveis"
+
+#. module: oemedical
+#: help:oemedical.vaccination,vaccine:0
+msgid ""
+"Vaccine Name. Make sure that the vaccine (product) has all the proper "
+"information at product level. Information such as provider, supplier code, "
+"tracking number, etc.. This  information must always be present. If "
+"available, please copy / scan the vaccine leaflet and attach it to this "
+"record"
+msgstr ""
+"Vaccine name. Make sure that the vaccine (product) has all the proper "
+"information at product level. Information such as provider, supplier code, "
+"tracking number, etc.. This information must always be present. If "
+"available, please copy / scan the vaccine leaflet and attach it to this "
+"record"
+
+#. module: oemedical
+#: view:oemedical.vaccination:0
+#: field:oemedical.vaccination,next_dose_date:0
+msgid "Next Dose"
+msgstr "Próxima Dose"
+
+#. module: oemedical
+#: model:ir.actions.act_window,name:oemedical.act_open_oemedical_patient_disease_view
+msgid "Patient Disease"
+msgstr "Doença do Paciente"
+
+#. module: oemedical
+#: help:oemedical.patient.evaluation,head_circumference:0
+msgid "Head circumference"
+msgstr "Circunferência da cabeça"
+
+#. module: oemedical
+#: help:oemedical.patient.evaluation,weight:0
+msgid "Weight in Kilos"
+msgstr "Peso em Kilos"
+
+#. module: oemedical
+#: view:oemedical.patient.disease:0
+#: field:oemedical.patient.disease,treatment_description:0
+msgid "Treatment Description"
+msgstr "Descrição do Tratamento"
+
+#. module: oemedical
+#: model:ir.model,name:oemedical.model_oemedical_directions
+msgid "oemedical.directions"
+msgstr "oemedical.directions"
+
+#. module: oemedical
+#: help:oemedical.appointment,patient:0
+#: help:oemedical.patient,patient:0
+msgid "Patient Name"
+msgstr "Nome do Paciente"
+
+#. module: oemedical
+#: selection:oemedical.medication.template,duration_period:0
+msgid "years"
+msgstr "anos"
+
+#. module: oemedical
+#: help:oemedical.hospital.bed,telephone_number:0
+msgid "Telephone number / Extension"
+msgstr "Telefone/Ramal"
+
+#. module: oemedical
+#: view:oemedical.insurance.plan:0
+#: field:oemedical.insurance.plan,notes:0
+#: view:oemedical.physician:0
+#: field:oemedical.physician,info:0
+msgid "Extra info"
+msgstr "Informação adicional"
+
+#. module: oemedical
+#: field:oemedical.patient.evaluation,signs_and_symptoms:0
+msgid "Signs and Symptoms"
+msgstr "Sinais e sintomas"
+
+#. module: oemedical
+#: selection:oemedical.patient.evaluation,mood:0
+msgid "Disgust"
+msgstr "enjoo"
+
+#. module: oemedical
+#: view:oemedical.medicament:0
+msgid "Oemedical Medicament"
+msgstr "Oemedical Medicamento"
+
+#. module: oemedical
+#: field:oemedical.patient,rh:0
+msgid "Rh"
+msgstr "Rh"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,hip:0
+msgid "Hip"
+msgstr "Quadril"
+
+#. module: oemedical
+#: model:ir.ui.menu,name:oemedical.oemedical_prescription_order
+msgid " Prescription Order"
+msgstr " Prescrição Médica"
+
+#. module: oemedical
+#: selection:oemedical.patient.evaluation,evaluation_type:0
+msgid "Emergency"
+msgstr "Emergência"
+
+#. module: oemedical
+#: help:oemedical.hospital.ward,bio_hazard:0
+msgid "Check this option if there is biological hazard"
+msgstr "Marque esta opção se houver perigo biológico"
+
+#. module: oemedical
+#: view:oemedical.medication.template:0
+#: field:oemedical.medication.template,frequency_prn:0
+msgid "PRN"
+msgstr "PRN"
+
+#. module: oemedical
+#: view:oemedical.insurance.plan:0
+#: field:oemedical.insurance.plan,is_default:0
+msgid "Default plan"
+msgstr "Plano padrão"
+
+#. module: oemedical
+#: model:ir.actions.act_window,name:oemedical.act_open_oemedical_specialty_view
+#: view:oemedical.appointment:0
+#: field:oemedical.appointment,speciality:0
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,specialty:0
+#: view:oemedical.physician:0
+#: field:oemedical.physician,specialty:0
+#: view:oemedical.specialty:0
+#: field:oemedical.specialty,name:0
+msgid "Specialty"
+msgstr "Especialidade"
+
+#. module: oemedical
+#: selection:oemedical.medication.template,frequency_unit:0
+msgid "weeks"
+msgstr "semanas"
+
+#. module: oemedical
+#: model:ir.model,name:oemedical.model_oemedical_medication_dosage
+msgid "oemedical.medication.dosage"
+msgstr "oemedical.medication.dosage"
+
+#. module: oemedical
+#: field:oemedical.prescription.order,prescription_line:0
+msgid "Prescription line"
+msgstr "Item da prescrição"
+
+#. module: oemedical
+#: field:oemedical.patient.evaluation,diagnostic_hypothesis:0
+msgid "Hypotheses / DDx"
+msgstr "Hipóteses/Diagnósticos"
+
+#. module: oemedical
+#: model:ir.model,name:oemedical.model_oemedical_patient
+msgid "oemedical.patient"
+msgstr "oemedical.patient"
+
+#. module: oemedical
+#: model:ir.model,name:oemedical.model_oemedical_prescription_line
+msgid "oemedical.prescription.line"
+msgstr "oemedical.prescription.line"
+
+#. module: oemedical
+#: model:ir.model,name:oemedical.model_oemedical_drug_route
+msgid "oemedical.drug.route"
+msgstr "oemedical.drug.route"
+
+#. module: oemedical
+#: help:oemedical.patient.evaluation,whr:0
+msgid "Waist to hip ratio"
+msgstr "Da cintura para quadril"
+
+#. module: oemedical
+#: model:ir.ui.menu,name:oemedical.oemedical_drug_form
+msgid " Drug Form"
+msgstr " Formulário da medicação"
+
+#. module: oemedical
+#: help:oemedical.insurance.plan,is_default:0
+msgid ""
+"Check if this is the default plan when assigning this insurance company to a "
+"patient"
+msgstr ""
+"Verifique se este é o plano padrão ao atribuir esta companhia de seguros "
+"para o paciente"
+
+#. module: oemedical
+#: view:oemedical.medication.dosage:0
+#: field:oemedical.medication.dosage,abbreviation:0
+msgid "Abbreviation"
+msgstr "Abreviação"
+
+#. module: oemedical
+#: selection:oemedical.patient.disease,disease_severity:0
+msgid "Mild"
+msgstr "Moderado"
+
+#. module: oemedical
+#: help:oemedical.medication.dosage,code:0
+msgid "Dosage Code,for example: SNOMED 229798009 = 3 times per day"
+msgstr "Código de dosagem, por exemplo: SNOMED 229798009 = 3 vezes por dia"
+
+#. module: oemedical
+#: view:oemedical.ethnicity:0
+msgid "Oemedical Ethnicity"
+msgstr "Oemedical Etnia"
+
+#. module: oemedical
+#: selection:oemedical.hospital.bed,bed_type:0
+msgid "Low Bed"
+msgstr "Leito rebaixado"
+
+#. module: oemedical
+#: help:oemedical.medicament,pregnancy_category:0
+msgid ""
+"** FDA Pregancy Categories ***\n"
+"CATEGORY A :Adequate and well-controlled human studies have failed to "
+"demonstrate a risk to the fetus in the first trimester of pregnancy (and "
+"there is no evidence of risk in later trimesters).\n"
+"\n"
+"CATEGORY B : Animal reproduction studies have failed todemonstrate a risk to "
+"the fetus and there are no adequate and well-controlled studies in pregnant "
+"women OR Animal studies have shown an adverse effect, but adequate and well-"
+"controlled studies in pregnant women have failed to demonstrate a risk to "
+"the fetus in any trimester.\n"
+"\n"
+"CATEGORY C : Animal reproduction studies have shown an adverse effect on the "
+"fetus and there are no adequate and well-controlled studies in humans, but "
+"potential benefits may warrant use of the drug in pregnant women despite "
+"potential risks. \n"
+"\n"
+" CATEGORY D : There is positive evidence of human fetal  risk based on "
+"adverse reaction data from investigational or marketing experience or "
+"studies in humans, but potential benefits may warrant use of the drug in "
+"pregnant women despite potential risks.\n"
+"\n"
+"CATEGORY X : Studies in animals or humans have demonstrated fetal "
+"abnormalities and/or there is positive evidence of human fetal risk based on "
+"adverse reaction data from investigational or marketing experience, and the "
+"risks involved in use of the drug in pregnant women clearly outweigh "
+"potential benefits.\n"
+"\n"
+"CATEGORY N : Not yet classified"
+msgstr ""
+"** FDA gestação Categorias ***\n"
+"CATEGORIA A: estudos com seres humanos adequados e bem controlado não "
+"conseguiram demonstrar um risco para o feto, no primeiro trimestre da "
+"gravidez (e não há nenhuma evidência de risco em trimestres posteriores).\n"
+"\n"
+"Categoria B: estudos de reprodução animal não conseguiram todemonstrate um "
+"risco para o feto e não há estudos adequados e bem controlados em mulheres "
+"grávidas ou estudos em animais mostraram um efeito adverso, mas estudos "
+"adequados e bem controlados em mulheres grávidas não demonstraram um risco "
+"para o feto em qualquer trimestre.\n"
+"\n"
+"Categoria C: Estudos de reprodução animal têm demonstrado um efeito adverso "
+"sobre o feto e não há estudos adequados e bem controlados em seres humanos, "
+"mas os benefícios potenciais podem justificar o uso da droga em mulheres "
+"grávidas, apesar dos riscos potenciais.\n"
+"\n"
+"  CATEGORIA D: Há evidência positiva de risco fetal humano com base em dados "
+"sobre reacções adversas a partir da experiência ou estudos de investigação "
+"ou de marketing em humanos, mas os benefícios potenciais podem justificar o "
+"uso da droga em mulheres grávidas, apesar dos riscos potenciais.\n"
+"\n"
+"CATEGORIA X: Estudos em animais ou seres humanos demonstraram anormalidades "
+"fetais e / ou há evidência positiva de risco fetal humano com base em dados "
+"sobre reacções adversas a partir da experiência de investigação ou de "
+"marketing, e os riscos envolvidos no uso da droga em mulheres grávidas "
+"superam claramente os benefícios potenciais .\n"
+"\n"
+"CATEGORIA N: Ainda não classificado"
+
+#. module: oemedical
+#: view:oemedical.medication.template:0
+#: field:oemedical.medication.template,end_treatment:0
+#: view:oemedical.patient.disease:0
+#: field:oemedical.patient.disease,date_stop_treatment:0
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,evaluation_endtime:0
+msgid "End"
+msgstr "Término"
+
+#. module: oemedical
+#: help:res.partner,is_doctor:0
+msgid "Check if the party is a health professional"
+msgstr "Marque se o parceiro é um profissional de saúde"
+
+#. module: oemedical
+#: model:ir.model,name:oemedical.model_oemedical_pathology
+msgid "oemedical.pathology"
+msgstr "oemedical.pathology"
+
+#. module: oemedical
+#: help:oemedical.family_member,family_id:0
+msgid "Family code"
+msgstr "Código da Família"
+
+#. module: oemedical
+#: view:oemedical.medication.template:0
+msgid "Oemedical Medication Template"
+msgstr "Oemedical Modelo de medicação"
+
+#. module: oemedical
+#: view:oemedical.hospital.ward:0
+#: field:oemedical.hospital.ward,bio_hazard:0
+msgid "Bio Hazard"
+msgstr "Risco biológico"
+
+#. module: oemedical
+#: view:oemedical.prescription.line:0
+#: field:oemedical.prescription.line,prnt:0
+msgid "Print"
+msgstr "Imprimir"
+
+#. module: oemedical
+#: model:ir.actions.act_window,name:oemedical.act_open_oemedical_patient_evaluation_view
+msgid "Patient Evaluation"
+msgstr "Avaliação do Paciente"
+
+#. module: oemedical
+#: model:ir.actions.act_window,name:oemedical.act_open_oemedical_family_member_view
+msgid "Family Member"
+msgstr "Membro da Família"
+
+#. module: oemedical
+#: field:oemedical.appointment,appointment_type:0
+#: field:oemedical.patient.evaluation,evaluation_type:0
+msgid "Type"
+msgstr "Tipo"
+
+#. module: oemedical
+#: selection:oemedical.patient.evaluation,mood:0
+msgid "Flat"
+msgstr "Achatar"
+
+#. module: oemedical
+#: model:ir.ui.menu,name:oemedical.oemedical_insurance_plan
+msgid " Insurance Plan"
+msgstr " Plano de seguro de vida"
+
+#. module: oemedical
+#: help:oemedical.hospital.or,name:0
+msgid "Name of the Operating Room"
+msgstr "Nome da sala de operações"
+
+#. module: oemedical
+#: view:oemedical.medicament:0
+#: field:oemedical.medicament,dosage:0
+msgid "Dosage Instructions"
+msgstr "Instruções de dosagem"
+
+#. module: oemedical
+#: selection:oemedical.appointment,appointment_type:0
+msgid "Outpatient"
+msgstr "Paciente Ambulatorial"
+
+#. module: oemedical
+#: help:oemedical.medicament,product:0
+msgid "Product Name"
+msgstr "Nome do Produto"
+
+#. module: oemedical
+#: view:oemedical.hospital.bed:0
+#: field:oemedical.hospital.bed,ward:0
+msgid "Ward"
+msgstr "Enfermaria"
+
+#. module: oemedical
+#: sql_constraint:oemedical.family:0
+msgid "Family Code must be unique!"
+msgstr "Código de Família deve ser único"
+
+#. module: oemedical
+#: model:ir.ui.menu,name:oemedical.oemedical_hospital_ward
+msgid " Hospital Ward"
+msgstr " Enfermaria do Hospital"
+
+#. module: oemedical
+#: view:oemedical.operational_sector:0
+msgid "Oemedical Operational_Sector"
+msgstr "Oemedical Setor Operacional"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,reliable_info:0
+msgid "Reliable"
+msgstr "Confiável"
+
+#. module: oemedical
+#: field:res.partner,is_work:0
+msgid "Work"
+msgstr "Trabalho"
+
+#. module: oemedical
+#: view:oemedical.disease_group.members:0
+msgid "Oemedical Disease_Group Members"
+msgstr "Oemedical Membros do Grupo de Doença"
+
+#. module: oemedical
+#: field:oemedical.insurance,insurance_type:0
+#: field:res.partner,insurance_company_type:0
+msgid "Insurance Type"
+msgstr "Tipo de Seguro"
+
+#. module: oemedical
+#: selection:oemedical.patient,sex:0
+msgid "Male"
+msgstr "Masculino"
+
+#. module: oemedical
+#: model:ir.ui.menu,name:oemedical.oemedical_root
+#: model:ir.ui.menu,name:oemedical.oemedical_root_sub
+#: view:res.partner:0
+msgid "OeMedical"
+msgstr "OeMedical"
+
+#. module: oemedical
+#: view:oemedical.medication.template:0
+#: field:oemedical.medication.template,duration:0
+msgid "Treatment duration"
+msgstr "Duração do Tratamento"
+
+#. module: oemedical
+#: help:oemedical.patient.evaluation,calculation_ability:0
+msgid "Check this box if the patient can not do simple arithmetic problems"
+msgstr ""
+"Marque esta caixa se o paciente não pode fazer problemas aritméticos simples"
+
+#. module: oemedical
+#: view:oemedical.prescription.line:0
+#: field:oemedical.prescription.line,refills:0
+msgid "Refills #"
+msgstr "Recarga #"
+
+#. module: oemedical
+#: selection:oemedical.patient.evaluation,evaluation_type:0
+msgid "Phone call"
+msgstr "Chamada telefônica"
+
+#. module: oemedical
+#: model:ir.model,name:oemedical.model_oemedical_hospital_unit
+msgid "oemedical.hospital.unit"
+msgstr "oemedical.hospital.unit"
+
+#. module: oemedical
+#: view:oemedical.family:0
+msgid "Oemedical Family"
+msgstr "Oemedical Família"
+
+#. module: oemedical
+#: selection:oemedical.medication.template,duration_period:0
+#: selection:oemedical.medication.template,frequency_unit:0
+msgid "days"
+msgstr "dias"
+
+#. module: oemedical
+#: model:ir.ui.menu,name:oemedical.oemedical_vaccination
+msgid " Vaccination"
+msgstr " Vacinação"
+
+#. module: oemedical
+#: selection:oemedical.patient.disease,allergy_type:0
+msgid "Misc Contraindication"
+msgstr "Contraindicações gerais"
+
+#. module: oemedical
+#: view:oemedical.patient:0
+#: field:oemedical.patient,ssn:0
+msgid "SSN"
+msgstr "CPF"
+
+#. module: oemedical
+#: model:ir.ui.menu,name:oemedical.oemedical_signs_and_symptoms
+msgid " Signs And Symptoms"
+msgstr " Sinais e Sintomas"
+
+#. module: oemedical
+#: help:oemedical.medicament,dosage:0
+msgid "Dosage / Indications"
+msgstr "Dosagem/Indicações"
+
+#. module: oemedical
+#: view:oemedical.prescription.line:0
+#: field:oemedical.prescription.line,review:0
+msgid "Review"
+msgstr "Revisão"
+
+#. module: oemedical
+#: view:oemedical.medication.template:0
+#: field:oemedical.medication.template,start_treatment:0
+#: view:oemedical.patient.disease:0
+#: field:oemedical.patient.disease,date_start_treatment:0
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,evaluation_start:0
+msgid "Start"
+msgstr "Início"
+
+#. module: oemedical
+#: field:oemedical.patient,medications:0
+msgid "Medications"
+msgstr "Medicamentos"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,present_illness:0
+msgid "Present Illness"
+msgstr "Doença Atual"
+
+#. module: oemedical
+#: selection:oemedical.hospital.bed,bed_type:0
+msgid "Clinitron"
+msgstr "Clinitron"
+
+#. module: oemedical
+#: help:oemedical.patient.medication,doctor:0
+msgid "Physician who prescribed the medicament"
+msgstr "Médico que prescreveu o medicamento"
+
+#. module: oemedical
+#: view:oemedical.appointment:0
+#: field:oemedical.appointment,appointment_date:0
+msgid "Date and Time"
+msgstr "Data e Hora"
+
+#. module: oemedical
+#: selection:oemedical.patient,marital_status:0
+msgid "Separated"
+msgstr "Separado(a)"
+
+#. module: oemedical
+#: model:ir.model,name:oemedical.model_oemedical_signs_and_symptoms
+msgid "oemedical.signs_and_symptoms"
+msgstr "oemedical.signs_and_symptoms"
+
+#. module: oemedical
+#: help:oemedical.patient.evaluation,praxis:0
+msgid "Check this box if the patient is unable to make voluntarymovements"
+msgstr ""
+"Marque esta caixa se o paciente é incapaz de fazer movimentos voluntários"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,derived_from:0
+msgid "Derived from"
+msgstr "Derivado de"
+
+#. module: oemedical
+#: help:oemedical.hospital.building,name:0
+msgid "Name of the building within the institution"
+msgstr "Nome da construção da instituição"
+
+#. module: oemedical
+#: help:oemedical.patient.evaluation,dehydration:0
+msgid ""
+"Check this box if the patient show signs of dehydration. If associated  to a "
+"disease, please encode the  correspondent disease on the patient disease "
+"history. For example, Volume Depletion, E86 in ICD-10 encoding"
+msgstr ""
+"Marque esta caixa se o paciente apresentar sinais de desidratação. Quando "
+"associado a uma doença, por favor, codifique a doença correspondente sobre a "
+"história de doença do paciente. Por exemplo, depleção de volume, E86 na "
+"codificação da CID-10"
+
+#. module: oemedical
+#: help:oemedical.patient,primary_care_doctor:0
+msgid "Current primary care / family doctor"
+msgstr "Médico primário de cuidado/família"
+
+#. module: oemedical
+#: field:oemedical.patient.evaluation,loc_eyes:0
+msgid "Glasgow - Eyes"
+msgstr "Glasgow - Olhos"
+
+#. module: oemedical
+#: help:oemedical.hospital.ward,number_of_beds:0
+msgid "Number of patients per ward"
+msgstr "Número de pacientes por enfermaria"
+
+#. module: oemedical
+#: model:ir.ui.menu,name:oemedical.oemedical_family_member
+msgid " Family Member"
+msgstr " Membro de Família"
+
+#. module: oemedical
+#: selection:oemedical.patient.evaluation,loc_verbal:0
+msgid "Confused, disoriented"
+msgstr "Confuso, desorientado"
+
+#. module: oemedical
+#: help:oemedical.pathology,name:0
+msgid "Disease name"
+msgstr "Nome da doença"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,diastolic:0
+msgid "Diastolic Pressure"
+msgstr "Pressão Diastólica"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,hba1c:0
+msgid "Glycated Hemoglobin"
+msgstr "Hemoglobina Glicada"
+
+#. module: oemedical
+#: model:ir.actions.act_window,name:oemedical.act_open_oemedical_prescription_line_view
+msgid "Prescription Line"
+msgstr "Item da Prescrição"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,loc:0
+msgid "Level of Consciousness"
+msgstr "Nível de Consciência"
+
+#. module: oemedical
+#: selection:oemedical.hospital.bed,state:0
+msgid "Reserved"
+msgstr "Reservado"
+
+#. module: oemedical
+#: model:ir.actions.act_window,name:oemedical.act_open_oemedical_dose_unit_view
+msgid "Dose Unit"
+msgstr "Unidade da Dosagem"
+
+#. module: oemedical
+#: view:oemedical.pathology:0
+#: field:oemedical.pathology,gene:0
+msgid "Gene"
+msgstr "Gene"
+
+#. module: oemedical
+#: view:oemedical.patient.medication:0
+#: field:oemedical.patient.medication,discontinued:0
+msgid "Discontinued"
+msgstr "Descontinuado"
+
+#. module: oemedical
+#: model:ir.ui.menu,name:oemedical.oemedical_occupation
+msgid " Occupation"
+msgstr " Profissão"
+
+#. module: oemedical
+#: selection:oemedical.signs_and_symptoms,sign_or_symptom:0
+msgid "Sign"
+msgstr "Sinal"
+
+#. module: oemedical
+#: view:oemedical.patient:0
+#: field:oemedical.patient,primary_care_doctor:0
+msgid "Primary Care Doctor"
+msgstr "Médico de cuidados primários"
+
+#. module: oemedical
+#: view:oemedical.drug.form:0
+#: field:oemedical.drug.form,code:0
+#: view:oemedical.drug.route:0
+#: field:oemedical.drug.route,code:0
+#: view:oemedical.ethnicity:0
+#: field:oemedical.ethnicity,code:0
+#: view:oemedical.hospital.building:0
+#: field:oemedical.hospital.building,code:0
+#: view:oemedical.hospital.unit:0
+#: field:oemedical.hospital.unit,code:0
+#: view:oemedical.medication.dosage:0
+#: field:oemedical.medication.dosage,code:0
+#: view:oemedical.occupation:0
+#: field:oemedical.occupation,code:0
+#: view:oemedical.pathology:0
+#: field:oemedical.pathology,code:0
+#: view:oemedical.pathology.group:0
+#: field:oemedical.pathology.group,code:0
+#: view:oemedical.patient.disease:0
+#: field:oemedical.patient.disease,pcs_code:0
+#: view:oemedical.procedure:0
+#: field:oemedical.procedure,name:0
+#: view:oemedical.specialty:0
+#: field:oemedical.specialty,code:0
+msgid "Code"
+msgstr "Código"
+
+#. module: oemedical
+#: help:oemedical.patient,current_insurance:0
+msgid ""
+"Insurance information. You may choose from the different insurances "
+"belonging to the patient"
+msgstr ""
+"Informações sobre o seguro. Você pode escolher entre os diferentes seguros "
+"pertencentes ao paciente"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,orientation:0
+msgid "Orientation"
+msgstr "Orientação"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,information_source:0
+msgid "Source"
+msgstr "Origem"
+
+#. module: oemedical
+#: help:oemedical.patient,critical_info:0
+msgid ""
+"Write any important information on the patient's disease, surgeries, "
+"allergies, ..."
+msgstr ""
+"Escreva todas as informações importantes sobre a doença do paciente, "
+"cirurgias, alergias, ..."
+
+#. module: oemedical
+#: field:oemedical.patient,sex:0
+msgid "Sex"
+msgstr "Sexo"
+
+#. module: oemedical
+#: help:res.partner,is_pharmacy:0
+msgid "Check if the party is a Pharmacy"
+msgstr "Marque se o parceiro é uma Farmácia"
+
+#. module: oemedical
+#: model:ir.model,name:oemedical.model_oemedical_family
+msgid "oemedical.family"
+msgstr "oemedical.family"
+
+#. module: oemedical
+#: view:oemedical.medication.dosage:0
+#: field:oemedical.medication.dosage,name:0
+#: view:oemedical.medication.template:0
+#: field:oemedical.medication.template,common_dosage:0
+#: field:oemedical.medication.template,frequency:0
+msgid "Frequency"
+msgstr "Frequência"
+
+#. module: oemedical
+#: field:oemedical.hospital.bed,bed_type:0
+msgid "Bed Type"
+msgstr "Tipo de Leito"
+
+#. module: oemedical
+#: view:oemedical.patient.medication:0
+#: field:oemedical.patient.medication,course_completed:0
+msgid "Course Completed"
+msgstr "Curso Concluído"
+
+#. module: oemedical
+#: help:oemedical.pathology.group,name:0
+msgid "Group name"
+msgstr "Nome do grupo"
+
+#. module: oemedical
+#: view:oemedical.drug.route:0
+#: field:oemedical.drug.route,name:0
+#: view:oemedical.hospital.or:0
+#: field:oemedical.hospital.or,unit:0
+#: view:oemedical.hospital.ward:0
+#: field:oemedical.hospital.ward,unit:0
+msgid "Unit"
+msgstr "Unidade"
+
+#. module: oemedical
+#: view:oemedical.patient.disease:0
+#: field:oemedical.patient.disease,age:0
+msgid "Age when diagnosed"
+msgstr "Idade quando diagnosticado"
+
+#. module: oemedical
+#: help:oemedical.patient.evaluation,diagnostic_hypothesis:0
+msgid ""
+"Presumptive Diagnosis. If no diagnosis can be made, encode the main sign or "
+"symptom."
+msgstr ""
+"O diagnóstico presuntivo. Se o diagnóstico não pode ser feito, codificar o "
+"principal sinal ou sintoma."
+
+#. module: oemedical
+#: field:oemedical.signs_and_symptoms,sign_or_symptom:0
+msgid "Subjective / Objective"
+msgstr "Subjetivo/Objetivo"
+
+#. module: oemedical
+#: selection:oemedical.hospital.ward,gender:0
+msgid "Unisex"
+msgstr "Unisex"
+
+#. module: oemedical
+#: selection:oemedical.patient.disease,status:0
+msgid "unchanged"
+msgstr "sem alterações"
+
+#. module: oemedical
+#: help:oemedical.patient,diseases:0
+msgid "Mark if the patient has died"
+msgstr "Marque se o paciente morreu"
+
+#. module: oemedical
+#: view:oemedical.medicament:0
+#: field:oemedical.medicament,active_component:0
+msgid "Active component"
+msgstr "Componente Ativo"
+
+#. module: oemedical
+#: model:ir.ui.menu,name:oemedical.oemedical_disease_group_members
+msgid " Disease Group Members"
+msgstr " Membros do Grupo de Doenças"
+
+#. module: oemedical
+#: field:oemedical.pathology.category,childs:0
+msgid "Children Category"
+msgstr "Categoria dos Filhos"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,user_id:0
+msgid "Last Changed by"
+msgstr "Última alteração por"
+
+#. module: oemedical
+#: view:oemedical.prescription.order:0
+#: field:oemedical.prescription.order,notes:0
+msgid "Prescription Notes"
+msgstr "Notas da Prescrição"
+
+#. module: oemedical
+#: model:ir.model,name:oemedical.model_oemedical_operational_area
+msgid "oemedical.operational_area"
+msgstr "oemedical.operational_area"
+
+#. module: oemedical
+#: help:res.partner,is_institution:0
+msgid "Check if the party is a Medical Center"
+msgstr "Marque se o parceiro é um Centro Médico"
+
+#. module: oemedical
+#: help:oemedical.vaccination,vaccine_lot:0
+msgid ""
+"Please check on the vaccine (product) production lot numberand tracking "
+"number when available !"
+msgstr ""
+"Favor marque na vacina (produto) o número de rastreio do lote de produção "
+"quando disponível!"
+
+#. module: oemedical
+#: field:oemedical.patient.evaluation,loc_motor:0
+msgid "Glasgow - Motor"
+msgstr "Glagow - Motor"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+msgid "Oemedical Patient Evaluation"
+msgstr "Oemedical Avaliação do Paciente"
+
+#. module: oemedical
+#: view:oemedical.patient.medication:0
+msgid "Oemedical Patient Medication"
+msgstr "Oemedical Medicação do Paciente"
+
+#. module: oemedical
+#: model:ir.model,name:oemedical.model_oemedical_medicament_category
+msgid "oemedical.medicament.category"
+msgstr "oemedical.medicament.category"
+
+#. module: oemedical
+#: selection:oemedical.hospital.bed,bed_type:0
+msgid "Circo Electric"
+msgstr "Circo Elétrico"
+
+#. module: oemedical
+#: help:product.product,is_medicament:0
+msgid "Check if the product is a medicament"
+msgstr "Marque se o produto é um medicamento"
+
+#. module: oemedical
+#: help:oemedical.patient.evaluation,violent:0
+msgid "Check this box if the patient is agressive or violent at the moment"
+msgstr "Marque se o paciente for agressivo ou violento no momento"
+
+#. module: oemedical
+#: view:oemedical.physician:0
+msgid "Oemedical Physician"
+msgstr "Oemedical Médico"
+
+#. module: oemedical
+#: selection:oemedical.patient.disease,status:0
+msgid "worsening"
+msgstr "agravamento"
+
+#. module: oemedical
+#: view:oemedical.hospital.or:0
+msgid "Oemedical Hospital Or"
+msgstr "Oemedical Hospital Or"
+
+#. module: oemedical
+#: help:oemedical.prescription.order,prescription_id:0
+msgid "Type in the ID of this prescription"
+msgstr "Tipo na identificação desta prescrição"
+
+#. module: oemedical
+#: view:oemedical.ethnicity:0
+#: field:oemedical.ethnicity,name:0
+#: view:oemedical.hospital.building:0
+#: field:oemedical.hospital.building,name:0
+#: view:oemedical.hospital.or:0
+#: field:oemedical.hospital.or,name:0
+#: view:oemedical.hospital.unit:0
+#: field:oemedical.hospital.unit,name:0
+#: view:oemedical.hospital.ward:0
+#: field:oemedical.hospital.ward,name:0
+#: field:oemedical.insurance,name:0
+#: field:oemedical.insurance.plan,name:0
+#: view:oemedical.medicament:0
+#: field:oemedical.medicament,name:0
+#: view:oemedical.medicament.category:0
+#: field:oemedical.medicament.category,name:0
+#: view:oemedical.medication.template:0
+#: field:oemedical.medication.template,name:0
+#: view:oemedical.occupation:0
+#: field:oemedical.occupation,name:0
+#: view:oemedical.operational_area:0
+#: field:oemedical.operational_area,name:0
+#: view:oemedical.pathology:0
+#: field:oemedical.pathology,name:0
+#: view:oemedical.pathology.group:0
+#: field:oemedical.pathology.group,name:0
+#: view:oemedical.patient:0
+#: field:oemedical.patient.evaluation,name:0
+#: view:oemedical.physician:0
+#: field:oemedical.physician,name:0
+#: view:oemedical.vaccination:0
+#: field:oemedical.vaccination,name:0
+msgid "Name"
+msgstr "Nome"
+
+#. module: oemedical
+#: model:ir.model,name:oemedical.model_oemedical_hospital_ward
+msgid "oemedical.hospital.ward"
+msgstr "oemedical.hospital.ward"
+
+#. module: oemedical
+#: selection:oemedical.patient.evaluation,mood:0
+msgid "Rage"
+msgstr "Raiva"
+
+#. module: oemedical
+#: model:ir.model,name:oemedical.model_oemedical_hospital_or
+msgid "oemedical.hospital.or"
+msgstr "oemedical.hospital.or"
+
+#. module: oemedical
+#: view:oemedical.vaccination:0
+msgid "Oemedical Vaccination"
+msgstr "Oemedical Vacinação"
+
+#. module: oemedical
+#: help:oemedical.patient.evaluation,malnutrition:0
+msgid ""
+"Check this box if the patient show signs of malnutrition. If associated  to "
+"a disease, please encode the correspondent disease on the patient disease "
+"history. For example, Moderate protein-energy malnutrition, E44.0 in ICD-10 "
+"encoding"
+msgstr ""
+"Marque esta caixa se o paciente mostra sinais de desnutrição. Quando "
+"associado a uma doença, por favor, codifique a doença correspondente sobre a "
+"história de doença do paciente. Por exemplo, moderada desnutrição protéico-"
+"energética, E44.0 na codificação da CID-10"
+
+#. module: oemedical
+#: view:oemedical.hospital.ward:0
+#: field:oemedical.hospital.ward,refrigerator:0
+msgid "Refrigetator"
+msgstr "Refrigerador"
+
+#. module: oemedical
+#: help:product.product,is_vaccine:0
+msgid "Check if the product is a vaccine"
+msgstr "Marque se o produto é uma vacina"
+
+#. module: oemedical
+#: selection:oemedical.patient.disease,disease_severity:0
+msgid "Severe"
+msgstr "Grave"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,notes_complaint:0
+msgid "Complaint details"
+msgstr "Detalhes das reclamações"
+
+#. module: oemedical
+#: help:oemedical.insurance,category:0
+msgid "Insurance company plan / category"
+msgstr "Plano/Categoria da companhia de seguro"
+
+#. module: oemedical
+#: view:oemedical.pathology:0
+msgid "Oemedical Pathology"
+msgstr "Oemedical Patologia"
+
+#. module: oemedical
+#: selection:oemedical.hospital.bed,state:0
+#: selection:oemedical.hospital.ward,state:0
+msgid "Not available"
+msgstr "Não disponivel"
+
+#. module: oemedical
+#: help:oemedical.patient.evaluation,derived_from:0
+msgid "Physician who derived the case"
+msgstr "Médico que derivou o caso"
+
+#. module: oemedical
+#: field:oemedical.patient.disease,disease_severity:0
+msgid "Severity"
+msgstr "Gravidade"
+
+#. module: oemedical
+#: view:oemedical.insurance:0
+#: field:oemedical.insurance,company:0
+#: view:oemedical.insurance.plan:0
+#: field:oemedical.insurance.plan,company:0
+#: field:res.partner,is_insurance_company:0
+msgid "Insurance Company"
+msgstr "Companhia de Seguro"
+
+#. module: oemedical
+#: selection:oemedical.medication.template,duration_period:0
+#: selection:oemedical.medication.template,frequency_unit:0
+msgid "minutes"
+msgstr "minutos"
+
+#. module: oemedical
+#: view:oemedical.appointment:0
+#: field:oemedical.appointment,comments:0
+#: view:oemedical.diagnostic_hypothesis:0
+#: field:oemedical.diagnostic_hypothesis,comments:0
+#: view:oemedical.directions:0
+#: field:oemedical.directions,comments:0
+#: view:oemedical.secondary_condition:0
+#: field:oemedical.secondary_condition,comments:0
+#: view:oemedical.signs_and_symptoms:0
+#: field:oemedical.signs_and_symptoms,comments:0
+msgid "Comments"
+msgstr "Comentários"
+
+#. module: oemedical
+#: view:oemedical.appointment:0
+#: view:oemedical.diagnostic_hypothesis:0
+#: view:oemedical.directions:0
+#: view:oemedical.disease_group.members:0
+#: view:oemedical.drug.form:0
+#: view:oemedical.drug.route:0
+#: view:oemedical.ethnicity:0
+#: view:oemedical.family:0
+#: view:oemedical.family_member:0
+#: view:oemedical.hospital.bed:0
+#: view:oemedical.hospital.building:0
+#: view:oemedical.hospital.or:0
+#: view:oemedical.hospital.unit:0
+#: view:oemedical.hospital.ward:0
+#: view:oemedical.insurance:0
+#: view:oemedical.insurance.plan:0
+#: view:oemedical.medicament:0
+#: view:oemedical.medicament.category:0
+#: view:oemedical.medication.dosage:0
+#: view:oemedical.medication.template:0
+#: view:oemedical.occupation:0
+#: view:oemedical.operational_area:0
+#: view:oemedical.operational_sector:0
+#: view:oemedical.pathology:0
+#: view:oemedical.pathology.category:0
+#: view:oemedical.pathology.group:0
+#: view:oemedical.patient:0
+#: view:oemedical.patient.disease:0
+#: view:oemedical.patient.evaluation:0
+#: view:oemedical.patient.medication:0
+#: view:oemedical.physician:0
+#: view:oemedical.prescription.line:0
+#: view:oemedical.prescription.order:0
+#: view:oemedical.procedure:0
+#: view:oemedical.secondary_condition:0
+#: view:oemedical.signs_and_symptoms:0
+#: view:oemedical.specialty:0
+#: view:oemedical.vaccination:0
+msgid "Group By..."
+msgstr "Agrupar Por..."
+
+#. module: oemedical
+#: help:oemedical.operational_sector,name:0
+msgid "Region included in an operational area"
+msgstr "Região incluída em uma área operacional"
+
+#. module: oemedical
+#: view:oemedical.family_member:0
+#: field:oemedical.family_member,role:0
+msgid "Role"
+msgstr "Regra"
+
+#. module: oemedical
+#: model:ir.ui.menu,name:oemedical.oemedical_hospital_bed
+msgid " Hospital Bed"
+msgstr " Leito Hospitalar"
+
+#. module: oemedical
+#: model:ir.actions.act_window,name:oemedical.act_open_oemedical_pathology_category_view
+msgid "Pathology Category"
+msgstr "Categoria Patológica"
+
+#. module: oemedical
+#: view:oemedical.hospital.ward:0
+#: field:oemedical.hospital.ward,ac:0
+msgid "Air Conditioning"
+msgstr "Ar Condicionado"
+
+#. module: oemedical
+#: model:ir.actions.act_window,name:oemedical.act_open_oemedical_medication_template_view
+#: view:oemedical.patient.medication:0
+#: field:oemedical.patient.medication,template:0
+#: view:oemedical.prescription.line:0
+#: field:oemedical.prescription.line,template:0
+msgid "Medication Template"
+msgstr "Modelo de Medicação"
+
+#. module: oemedical
+#: model:ir.actions.act_window,name:oemedical.act_open_oemedical_hospital_ward_view
+msgid "Hospital Ward"
+msgstr "Enfermaria Hospitalar"
+
+#. module: oemedical
+#: model:ir.ui.menu,name:oemedical.oemedical_physician
+msgid " Physician"
+msgstr " Médico"
+
+#. module: oemedical
+#: view:oemedical.medicament:0
+#: field:oemedical.medicament,pregnancy:0
+msgid "Pregnancy and Lactancy"
+msgstr "Gestante e Lactante"
+
+#. module: oemedical
+#: selection:oemedical.hospital.bed,state:0
+msgid "Free"
+msgstr "Livre"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,tremor:0
+msgid "Tremor"
+msgstr "Tremor"
+
+#. module: oemedical
+#: view:oemedical.prescription.order:0
+#: field:oemedical.prescription.order,pregnancy_warning:0
+msgid "Pregancy Warning"
+msgstr "Cuidados na gestação"
+
+#. module: oemedical
+#: help:oemedical.medicament,therapeutic_action:0
+msgid "Therapeutic action"
+msgstr "Ação terapeutica"
+
+#. module: oemedical
+#: field:res.partner,is_doctor:0
+msgid "Health Prof"
+msgstr "Profissional de Saúde"
+
+#. module: oemedical
+#: model:ir.ui.menu,name:oemedical.oemedical_medication_dosage
+msgid " Medication Dosage"
+msgstr " Dosagem da medicação"
+
+#. module: oemedical
+#: view:oemedical.hospital.unit:0
+msgid "Oemedical Hospital Unit"
+msgstr "Oemedical Unidade Hospitalar"
+
+#. module: oemedical
+#: selection:oemedical.patient.disease,allergy_type:0
+msgid "Drug Allergy"
+msgstr "Alergia a medicamentos"
+
+#. module: oemedical
+#: selection:oemedical.patient.evaluation,loc_motor:0
+msgid "Obeys commands"
+msgstr "Obedece comandos"
+
+#. module: oemedical
+#: model:ir.ui.menu,name:oemedical.oemedical_pathology
+msgid " Pathology"
+msgstr " Patologia"
+
+#. module: oemedical
+#: help:oemedical.medication.template,route:0
+msgid "Drug administration route code."
+msgstr "Rota de administração do medicamento"
+
+#. module: oemedical
+#: help:oemedical.patient.evaluation,ldl:0
+msgid "Last LDL Cholesterol reading. Can be approximative"
+msgstr "Última leitura de colesterol LDL. Pode ser aproximado"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,info_diagnosis:0
+msgid "Presumptive Diagnosis: Extra Info"
+msgstr "O diagnóstico presuntivo: Informação extra"
+
+#. module: oemedical
+#: view:oemedical.hospital.ward:0
+#: field:oemedical.hospital.ward,floor:0
+msgid "Floor Number"
+msgstr "Número do Andar"
+
+#. module: oemedical
+#: help:oemedical.hospital.bed,name:0
+msgid "Bed Number"
+msgstr "Número do Leito"
+
+#. module: oemedical
+#: help:oemedical.patient,current_address:0
+msgid ""
+"Contact information. You may choose from the different contacts and "
+"addresses this patient has."
+msgstr ""
+"Informações para contato. Você pode escolher entre os diferentes contatos e "
+"endereços este paciente tem."
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,cholesterol_total:0
+msgid "Last Cholesterol"
+msgstr "Último Colesterol"
+
+#. module: oemedical
+#: model:ir.ui.menu,name:oemedical.oemedical_hospital_unit
+msgid " Hospital Unit"
+msgstr " Unidade Hospitalar"
+
+#. module: oemedical
+#: selection:oemedical.patient.evaluation,loc_motor:0
+msgid "Abnormal flexion to painful stimuli (decorticate response)"
+msgstr "Flexão anormal a estímulos dolorosos (resposta decorticate)"
+
+#. module: oemedical
+#: view:oemedical.hospital.bed:0
+#: field:oemedical.hospital.bed,extra_info:0
+#: view:oemedical.hospital.building:0
+#: field:oemedical.hospital.building,extra_info:0
+#: view:oemedical.hospital.or:0
+#: field:oemedical.hospital.or,extra_info:0
+#: view:oemedical.hospital.unit:0
+#: field:oemedical.hospital.unit,extra_info:0
+#: view:oemedical.hospital.ward:0
+#: field:oemedical.hospital.ward,extra_info:0
+#: view:oemedical.insurance:0
+#: field:oemedical.insurance,notes:0
+#: view:oemedical.medicament:0
+#: field:oemedical.medicament,notes:0
+#: view:oemedical.pathology:0
+#: field:oemedical.pathology,info:0
+#: view:oemedical.patient.disease:0
+#: field:oemedical.patient.disease,extra_info:0
+#: view:oemedical.patient.medication:0
+#: field:oemedical.patient.medication,notes:0
+msgid "Extra Info"
+msgstr "Informações Adicionais"
+
+#. module: oemedical
+#: selection:oemedical.patient,sex:0
+msgid "Female"
+msgstr "Feminino"
+
+#. module: oemedical
+#: model:ir.model,name:oemedical.model_oemedical_secondary_condition
+msgid "oemedical.secondary_condition"
+msgstr "oemedical.secondary_condition"
+
+#. module: oemedical
+#: model:ir.ui.menu,name:oemedical.oemedical_appointment
+msgid " Appointment"
+msgstr " Consulta"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,evaluation_summary:0
+msgid "Evaluation Summary"
+msgstr "Resumo de Avaliação"
+
+#. module: oemedical
+#: help:res.partner,activation_date:0
+msgid "Date of activation of the party"
+msgstr "Data de ativação do parceiro"
+
+#. module: oemedical
+#: view:oemedical.hospital.ward:0
+#: field:oemedical.hospital.ward,internet:0
+msgid "Internet Access"
+msgstr "Acesso a Internet"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,tag:0
+msgid "Last TAGs"
+msgstr "Últimas TAGs"
+
+#. module: oemedical
+#: view:oemedical.patient:0
+#: field:oemedical.patient,ethnic_group:0
+msgid "Ethnic group"
+msgstr "Grupo Étnico"
+
+#. module: oemedical
+#: selection:oemedical.patient.evaluation,mood:0
+msgid "Euphoria"
+msgstr "Euforia"
+
+#. module: oemedical
+#: help:oemedical.patient.evaluation,osat:0
+msgid "Oxygen Saturation(arterial)."
+msgstr "Saturação de oxigênio (arterial)"
+
+#. module: oemedical
+#: field:res.partner,activation_date:0
+msgid "Activation date"
+msgstr "Data de Ativação"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,violent:0
+msgid "Violent Behaviour"
+msgstr "Comportamento violento"
+
+#. module: oemedical
+#: model:ir.ui.menu,name:oemedical.oemedical_directions
+msgid " Directions"
+msgstr " Direções"
+
+#. module: oemedical
+#: view:oemedical.appointment:0
+#: field:oemedical.appointment,name:0
+#: field:oemedical.prescription.order,name:0
+msgid "Appointment ID"
+msgstr "ID Consulta"
+
+#. module: oemedical
+#: field:oemedical.patient,blood_type:0
+msgid "Blood Type"
+msgstr "Tipo sangüíneo"
+
+#. module: oemedical
+#: selection:oemedical.patient.evaluation,loc_verbal:0
+msgid "Makes no sounds"
+msgstr "Não faz barulho"
+
+#. module: oemedical
+#: selection:oemedical.appointment,urgency:0
+msgid "Medical Emergency"
+msgstr "Emergência Médica"
+
+#. module: oemedical
+#: model:ir.ui.menu,name:oemedical.oemedical_hospital_or
+msgid " Hospital Or"
+msgstr " Hospital Or"
+
+#. module: oemedical
+#: view:oemedical.patient.disease:0
+#: field:oemedical.patient.disease,is_on_treatment:0
+msgid "Currently on Treatment"
+msgstr "Em tratamento atualmente"
+
+#. module: oemedical
+#: field:res.partner,relationship:0
+msgid "Relationship"
+msgstr "Relacionamento"
+
+#. module: oemedical
+#: view:oemedical.appointment:0
+#: field:oemedical.appointment,institution:0
+msgid "Health Center"
+msgstr "Centro de Saúde"
+
+#. module: oemedical
+#: model:ir.model,name:oemedical.model_oemedical_insurance_plan
+msgid "oemedical.insurance.plan"
+msgstr "oemedical.insurance.plan"
+
+#. module: oemedical
+#: selection:oemedical.patient.evaluation,loc_motor:0
+msgid "Extension to painful stimuli - decerebrate response -"
+msgstr "Extensão a estímulos dolorosos - resposta descerebrada -"
+
+#. module: oemedical
+#: help:oemedical.patient.medication,discontinued_reason:0
+msgid "Short description for discontinuing the treatment"
+msgstr "Breve descrição para a interrupção do tratamento"
+
+#. module: oemedical
+#: help:oemedical.patient.disease,short_comment:0
+msgid ""
+"Brief, one-line remark of the disease. Longer description will go on the "
+"Extra info field"
+msgstr ""
+"Descrição breve de uma linha. Descrição já vai no campo de informação "
+"adicional"
+
+#. module: oemedical
+#: help:oemedical.patient.evaluation,orientation:0
+msgid "Check this box if the patient is disoriented in time and/or space"
+msgstr ""
+"Marque esta caixa se o paciente está desorientado no tempo e / ou espaço"
+
+#. module: oemedical
+#: selection:oemedical.hospital.ward,state:0
+msgid "Full"
+msgstr "Completo"
+
+#. module: oemedical
+#: help:oemedical.patient.evaluation,temperature:0
+msgid "Temperature in celcius"
+msgstr "Temperatura em Celcius"
+
+#. module: oemedical
+#: model:ir.actions.act_window,name:oemedical.act_open_oemedical_medicament_category_view
+msgid "Medicament Category"
+msgstr "Categoria do Medicamento"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,osat:0
+msgid "Oxygen Saturation"
+msgstr "Saturação de Oxigênio"
+
+#. module: oemedical
+#: model:ir.ui.menu,name:oemedical.oemedical_insurance
+msgid " Insurance"
+msgstr " Seguro"
+
+#. module: oemedical
+#: help:oemedical.patient.evaluation,secondary_conditions:0
+msgid "Other, Secondary conditions found on the patient"
+msgstr "Outras condições secundárias identificadas no paciente"
+
+#. module: oemedical
+#: selection:oemedical.patient.evaluation,evaluation_type:0
+msgid "Telemedicine"
+msgstr "Telemedicina"
+
+#. module: oemedical
+#: help:oemedical.appointment,speciality:0
+msgid "Medical Specialty / Sector"
+msgstr "Especialidade/Setor Médico"
+
+#. module: oemedical
+#: help:oemedical.patient.evaluation,abstraction:0
+msgid ""
+"Check this box if the patient presents abnormalities in abstract reasoning"
+msgstr ""
+"Marque esta caixa se o paciente apresenta anormalidades no raciocínio "
+"abstrato"
+
+#. module: oemedical
+#: view:oemedical.patient.disease:0
+#: field:oemedical.patient.disease,weeks_of_pregnancy:0
+msgid "Contracted in pregnancy week #"
+msgstr "Contratada na semana de gestação #"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,dehydration:0
+msgid "Dehydration"
+msgstr "Desidratação"
+
+#. module: oemedical
+#: view:oemedical.patient:0
+msgid "Oemedical Patient"
+msgstr "Oemedical Paciente"
+
+#. module: oemedical
+#: model:ir.ui.menu,name:oemedical.oemedical_prescription_line
+msgid " Prescription Line"
+msgstr " Linha da Prescrição"
+
+#. module: oemedical
+#: model:ir.ui.menu,name:oemedical.oemedical_pathology_group
+msgid " Pathology Group"
+msgstr " Grupo Patológico"
+
+#. module: oemedical
+#: model:ir.ui.menu,name:oemedical.oemedical_dose_unit
+msgid " Dose Unit"
+msgstr " Unidade da Dose"
+
+#. module: oemedical
+#: selection:oemedical.hospital.bed,state:0
+msgid "Occupied"
+msgstr "Ocupado"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,temperature:0
+msgid "Temperature"
+msgstr "Temperatura"
+
+#. module: oemedical
+#: selection:oemedical.patient.evaluation,loc_verbal:0
+msgid "Utters inappropriate words"
+msgstr "Profere palavras inadequadas"
+
+#. module: oemedical
+#: help:oemedical.patient.disease,pcs_code:0
+msgid "Procedure code, for example, ICD-10-PCS Code 7-character string"
+msgstr ""
+"Código de procedimento, por exemplo, ICD-10-PCS Código corda de 7 caracteres"
+
+#. module: oemedical
+#: selection:oemedical.patient.disease,disease_severity:0
+msgid "Moderate"
+msgstr "Moderada"
+
+#. module: oemedical
+#: help:oemedical.medication.template,qty:0
+msgid "Quantity of units (eg, 2 capsules) of the medicament"
+msgstr "Quantidade de unidades (por exemplo, duas cápsulas) do medicamento"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,head_circumference:0
+msgid "Head Circumference"
+msgstr "Circunferência da cabeça"
+
+#. module: oemedical
+#: model:ir.actions.act_window,name:oemedical.act_open_oemedical_appointment_view
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,evaluation_date:0
+msgid "Appointment"
+msgstr "Consulta"
+
+#. module: oemedical
+#: selection:oemedical.hospital.bed,bed_type:0
+msgid "Electric"
+msgstr "Elétrico"
+
+#. module: oemedical
+#: model:ir.ui.menu,name:oemedical.oemedical_operational_area
+msgid " Operational Area"
+msgstr " Área Operacional"
+
+#. module: oemedical
+#: selection:oemedical.patient.evaluation,evaluation_type:0
+msgid "Pre-arranged appointment"
+msgstr "Consulta pré-agendada"
+
+#. module: oemedical
+#: view:oemedical.hospital.ward:0
+#: field:oemedical.hospital.ward,telephone:0
+msgid "Telephone access"
+msgstr "Acesso ao telefone"
+
+#. module: oemedical
+#: view:oemedical.operational_area:0
+msgid "Oemedical Operational_Area"
+msgstr "Oemedical Área Operacional"
+
+#. module: oemedical
+#: help:oemedical.patient.evaluation,bpm:0
+msgid "Heart rate expressed in beats per minute"
+msgstr "A freqüência cardíaca expressa em batimentos por minuto"
+
+#. module: oemedical
+#: model:ir.actions.act_window,name:oemedical.act_open_oemedical_disease_group_members_view
+msgid "Disease Group Members"
+msgstr "Membros do Grupo de Doenças"
+
+#. module: oemedical
+#: view:oemedical.insurance:0
+#: field:oemedical.insurance,plan_id:0
+#: view:oemedical.insurance.plan:0
+#: field:oemedical.insurance.plan,plan:0
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,directions:0
+msgid "Plan"
+msgstr "Plano"
+
+#. module: oemedical
+#: view:oemedical.insurance.plan:0
+msgid "Oemedical Insurance Plan"
+msgstr "Oemedical Plano de Seguro"
+
+#. module: oemedical
+#: selection:oemedical.patient.evaluation,loc_eyes:0
+msgid "Opens eyes in response to voice"
+msgstr "Abre olhos em resposta à voz"
+
+#. module: oemedical
+#: view:oemedical.patient.medication:0
+#: field:oemedical.patient.medication,is_active:0
+msgid "Active"
+msgstr "Ativo"
+
+#. module: oemedical
+#: help:oemedical.prescription.line,prnt:0
+msgid "Check this box to print this line of the prescription."
+msgstr "Marque esta caixa para imprimir esta linha da prescrição."
+
+#. module: oemedical
+#: help:oemedical.patient,identification_code:0
+msgid ""
+"Patient Identifier provided by the Health Center.Is not the Social Security "
+"Number"
+msgstr ""
+"Identificação do paciente fornecidos pelo Centro de Saúde. Não é o CPF"
+
+#. module: oemedical
+#: view:oemedical.medication.template:0
+#: field:oemedical.medication.template,route:0
+msgid "Administration Route"
+msgstr "Rota de Administração"
+
+#. module: oemedical
+#: view:oemedical.medicament:0
+#: field:oemedical.medicament,pregnancy_warning:0
+msgid "Pregnancy Warning"
+msgstr "Cuidados de gestação"
+
+#. module: oemedical
+#: view:oemedical.family:0
+#: field:oemedical.family,info:0
+#: view:oemedical.operational_area:0
+#: field:oemedical.operational_area,info:0
+#: view:oemedical.operational_sector:0
+#: field:oemedical.operational_sector,info:0
+msgid "Extra Information"
+msgstr "Informações Adicionais"
+
+#. module: oemedical
+#: model:ir.model,name:oemedical.model_oemedical_operational_sector
+msgid "oemedical.operational_sector"
+msgstr "oemedical.operational_sector"
+
+#. module: oemedical
+#: help:oemedical.medication.template,form:0
+msgid "Drug form, such as tablet or gel"
+msgstr "Forma do medicamento, como tablete ou gel"
+
+#. module: oemedical
+#: help:oemedical.medicament,indications:0
+msgid "Indications"
+msgstr "Indicações"
+
+#. module: oemedical
+#: view:oemedical.prescription.line:0
+#: field:oemedical.prescription.line,prescription_order_id:0
+#: view:oemedical.prescription.order:0
+#: field:oemedical.prescription.order,prescription_id:0
+msgid "Prescription ID"
+msgstr "ID da Prescrição"
+
+#. module: oemedical
+#: view:oemedical.insurance:0
+#: field:oemedical.insurance,number:0
+msgid "Number"
+msgstr "Número"
+
+#. module: oemedical
+#: view:oemedical.drug.route:0
+msgid "Oemedical Drug Route"
+msgstr "Oemedical Rota do Medicamento"
+
+#. module: oemedical
+#: help:oemedical.patient.evaluation,derived_to:0
+msgid "Physician to whom escalate / derive the case"
+msgstr "Médico a quem escalar / derivar o caso"
+
+#. module: oemedical
+#: help:oemedical.patient.evaluation,actions:0
+msgid "Procedures / Actions to take"
+msgstr "Procedimentos/Ações a tomar"
+
+#. module: oemedical
+#: model:ir.model,name:oemedical.model_oemedical_pathology_group
+msgid "oemedical.pathology.group"
+msgstr "oemedical.pathology.group"
+
+#. module: oemedical
+#: field:oemedical.medicament,pregnancy_category:0
+msgid "Pregnancy Category"
+msgstr "Categoria Gestacional"
+
+#. module: oemedical
+#: field:oemedical.patient.disease,allergy_type:0
+msgid "Allergy type"
+msgstr "Tipo Alérgico"
+
+#. module: oemedical
+#: view:oemedical.prescription.order:0
+#: field:oemedical.prescription.order,prescription_warning_ack:0
+msgid "Prescription verified"
+msgstr "Prescrição verificada"
+
+#. module: oemedical
+#: field:oemedical.medication.template,frequency_unit:0
+msgid "unit"
+msgstr "Unidade"
+
+#. module: oemedical
+#: help:oemedical.patient.evaluation,knowledge_current_events:0
+msgid ""
+"Check this box if the patient can not respond to public notorious events"
+msgstr ""
+"Marque esta caixa se o paciente não pode responder a eventos notórios "
+"públicos"
+
+#. module: oemedical
+#: help:oemedical.patient.evaluation,glycemia:0
+msgid "Last blood glucose level. Can be approximative."
+msgstr "Último nível de glicose sanguínea. Pode ser aproximado"
+
+#. module: oemedical
+#: help:oemedical.appointment,institution:0
+#: help:oemedical.hospital.building,institution:0
+#: help:oemedical.hospital.or,institution:0
+#: help:oemedical.hospital.unit,institution:0
+#: help:oemedical.hospital.ward,institution:0
+msgid "Medical Center"
+msgstr "Centro Médico"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,abstraction:0
+msgid "Abstraction"
+msgstr "Abstração"
+
+#. module: oemedical
+#: help:res.partner,is_person:0
+msgid "Check if the party is a person."
+msgstr "Marque se o parceiro é uma pessoa"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,diagnosis:0
+msgid "Presumptive Diagnosis"
+msgstr "O diagnóstico presuntivo"
+
+#. module: oemedical
+#: view:oemedical.patient:0
+#: field:oemedical.patient,lastname:0
+msgid "Lastname"
+msgstr "Sobrenome"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,hdl:0
+msgid "Last HDL"
+msgstr "Última HDL"
+
+#. module: oemedical
+#: help:oemedical.medication.template,admin_times:0
+msgid ""
+"Suggested administration hours. For example, at 08:00, 13:00 and 18:00 can "
+"be encoded like 08 13 18"
+msgstr ""
+"Horas após a administração sugeridas. Por exemplo, às 08:00 h, 13:00 h e as "
+"18:00 h pode ser codificado como 08 13 18"
+
+#. module: oemedical
+#: view:oemedical.patient:0
+#: field:oemedical.patient,current_address:0
+msgid "Address"
+msgstr "Endereço"
+
+#. module: oemedical
+#: view:oemedical.patient.disease:0
+#: field:oemedical.patient.disease,short_comment:0
+msgid "Remarks"
+msgstr "Observações"
+
+#. module: oemedical
+#: selection:oemedical.insurance,insurance_type:0
+#: selection:res.partner,insurance_company_type:0
+msgid "Labour Union / Syndical"
+msgstr "União Trabalhista / Sindical"
+
+#. module: oemedical
+#: help:oemedical.medication.template,dose_unit:0
+msgid "Unit of measure for the medication to be taken"
+msgstr "Unidade de medida para a medicação a ser feita"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,abdominal_circ:0
+msgid "Waist"
+msgstr "Cintura"
+
+#. module: oemedical
+#: view:oemedical.medicament:0
+#: field:oemedical.medicament,overdosage:0
+#: help:oemedical.medicament,overdosage:0
+msgid "Overdosage"
+msgstr "Superdosagem"
+
+#. module: oemedical
+#: model:ir.actions.act_window,name:oemedical.act_open_oemedical_drug_form_view
+msgid "Drug Form"
+msgstr "Forma de fármaco"
+
+#. module: oemedical
+#: model:ir.actions.act_window,name:oemedical.act_open_oemedical_hospital_unit_view
+msgid "Hospital Unit"
+msgstr "Unidade Hospitalar"
+
+#. module: oemedical
+#: view:oemedical.medicament:0
+#: field:oemedical.medicament,indications:0
+#: view:oemedical.medication.template:0
+#: field:oemedical.medication.template,indication:0
+msgid "Indication"
+msgstr "Indicação"
+
+#. module: oemedical
+#: view:oemedical.diagnostic_hypothesis:0
+msgid "Oemedical Diagnostic_Hypothesis"
+msgstr "Diagnostic_Hypothesis Oemedical"
+
+#. module: oemedical
+#: selection:oemedical.patient.evaluation,mood:0
+msgid "Sad"
+msgstr "Triste"
+
+#. module: oemedical
+#: view:oemedical.insurance:0
+#: field:oemedical.insurance,member_since:0
+msgid "Member since"
+msgstr "Membro desde"
+
+#. module: oemedical
+#: view:oemedical.patient:0
+#: field:oemedical.patient,identification_code:0
+#: view:oemedical.physician:0
+#: field:oemedical.physician,code:0
+msgid "ID"
+msgstr "ID"
+
+#. module: oemedical
+#: view:oemedical.patient:0
+#: field:oemedical.patient,deceased:0
+msgid "Deceased"
+msgstr "Falecido"
+
+#. module: oemedical
+#: field:oemedical.patient,diseases:0
+msgid "Diseases"
+msgstr "Doenças"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,derived_to:0
+msgid "Derived to"
+msgstr "Derivada para"
+
+#. module: oemedical
+#: sql_constraint:oemedical.drug.form:0
+#: sql_constraint:oemedical.drug.route:0
+#: sql_constraint:oemedical.ethnicity:0
+#: sql_constraint:oemedical.hospital.or:0
+#: sql_constraint:oemedical.medication.dosage:0
+#: sql_constraint:oemedical.occupation:0
+#: sql_constraint:oemedical.operational_area:0
+#: sql_constraint:oemedical.operational_sector:0
+#: sql_constraint:oemedical.pathology:0
+#: sql_constraint:oemedical.specialty:0
+msgid "Name must be unique!"
+msgstr "Nome deve ser único!"
+
+#. module: oemedical
+#: selection:oemedical.patient,marital_status:0
+msgid "Widowed"
+msgstr "Viúvo(a)"
+
+#. module: oemedical
+#: view:oemedical.hospital.building:0
+msgid "Oemedical Hospital Building"
+msgstr "Edifício Hospital Oemedical"
+
+#. module: oemedical
+#: selection:oemedical.patient.evaluation,loc_eyes:0
+msgid "Does not Open Eyes"
+msgstr "Não abrir os olhos"
+
+#. module: oemedical
+#: help:oemedical.patient,family:0
+msgid "Family Code"
+msgstr "Código da Família"
+
+#. module: oemedical
+#: view:oemedical.secondary_condition:0
+msgid "Oemedical Secondary_Condition"
+msgstr "Secondary_Condition Oemedical"
+
+#. module: oemedical
+#: help:oemedical.medicament,pregnancy_warning:0
+msgid "The drug represents risk to pregnancy or lactancy"
+msgstr "A droga representa um risco para a gravidez ou lactancy"
+
+#. module: oemedical
+#: model:ir.model,name:oemedical.model_oemedical_hospital_bed
+msgid "oemedical.hospital.bed"
+msgstr "oemedical.hospital.bed"
+
+#. module: oemedical
+#: view:oemedical.appointment:0
+msgid "Oemedical Appointment"
+msgstr "Nomeação Oemedical"
+
+#. module: oemedical
+#: help:oemedical.physician,institution:0
+msgid "Instituion where she/he works"
+msgstr "Instituion onde ela / ele trabalha"
+
+#. module: oemedical
+#: model:ir.actions.act_window,name:oemedical.act_open_oemedical_hospital_bed_view
+msgid "Hospital Bed"
+msgstr "Cama de hospital"
+
+#. module: oemedical
+#: model:ir.model,name:oemedical.model_oemedical_disease_group_members
+msgid "oemedical.disease_group.members"
+msgstr "oemedical.disease_group.members"
+
+#. module: oemedical
+#: help:oemedical.patient.evaluation,evaluation_date:0
+msgid ""
+"Enter or select the date / ID of the appointment related to this evaluation"
+msgstr ""
+"Digite ou selecione a data / ID do compromisso relacionado a esta avaliação"
+
+#. module: oemedical
+#: help:oemedical.patient.evaluation,information_source:0
+msgid "Source ofInformation, eg : Self, relative, friend ..."
+msgstr "Ofinformation fonte, como por exemplo: Self, parente, amigo ..."
+
+#. module: oemedical
+#: model:ir.actions.act_window,name:oemedical.act_open_oemedical_vaccination_view
+msgid "Vaccination"
+msgstr "Vacinação"
+
+#. module: oemedical
+#: model:ir.actions.act_window,name:oemedical.act_open_oemedical_patient_medication_view
+msgid "Patient Medication"
+msgstr "Medicação paciente"
+
+#. module: oemedical
+#: view:oemedical.pathology.group:0
+#: field:oemedical.pathology.group,info:0
+msgid "Detailed information"
+msgstr "Informação detalhada"
+
+#. module: oemedical
+#: view:oemedical.signs_and_symptoms:0
+msgid "Oemedical Signs_And_Symptoms"
+msgstr "Signs_And_Symptoms Oemedical"
+
+#. module: oemedical
+#: selection:oemedical.patient.evaluation,mood:0
+msgid "Happy"
+msgstr "Feliz"
+
+#. module: oemedical
+#: view:oemedical.procedure:0
+#: field:oemedical.procedure,description:0
+msgid "Long Text"
+msgstr "Texto Longo"
+
+#. module: oemedical
+#: selection:oemedical.patient.disease,allergy_type:0
+msgid "Food Allergy"
+msgstr "Alergia Alimentar"
+
+#. module: oemedical
+#: help:oemedical.medication.template,duration_period:0
+msgid ""
+"Period that the patient must take the medication in minutes, hours, days, "
+"months, years or indefinately"
+msgstr ""
+"Período em que o paciente deve tomar a medicação em questão de minutos, "
+"horas, dias, meses, anos ou indefinidamente"
+
+#. module: oemedical
+#: help:oemedical.patient.evaluation,reliable_info:0
+msgid ""
+"Uncheck this optionif the information provided by the source seems not "
+"reliable"
+msgstr ""
+"Desmarque esta optionif a informação fornecida pela fonte não parece "
+"confiável"
+
+#. module: oemedical
+#: help:product.product,is_bed:0
+msgid "Check if the product is a bed on the gnuhealth.center"
+msgstr "Verifique se o produto é uma cama no gnuhealth.center"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,chief_complaint:0
+#: help:oemedical.patient.evaluation,chief_complaint:0
+msgid "Chief Complaint"
+msgstr "Queixa principal"
+
+#. module: oemedical
+#: view:oemedical.hospital.building:0
+#: field:oemedical.hospital.building,institution:0
+#: view:oemedical.hospital.or:0
+#: field:oemedical.hospital.or,institution:0
+#: view:oemedical.hospital.unit:0
+#: field:oemedical.hospital.unit,institution:0
+#: view:oemedical.hospital.ward:0
+#: field:oemedical.hospital.ward,institution:0
+#: view:oemedical.physician:0
+#: field:oemedical.physician,institution:0
+#: view:oemedical.vaccination:0
+#: field:oemedical.vaccination,institution:0
+#: field:res.partner,is_institution:0
+msgid "Institution"
+msgstr "Instituição"
+
+#. module: oemedical
+#: view:oemedical.hospital.or:0
+#: field:oemedical.hospital.or,building:0
+#: view:oemedical.hospital.ward:0
+#: field:oemedical.hospital.ward,building:0
+msgid "Building"
+msgstr "Construção"
+
+#. module: oemedical
+#: selection:oemedical.medication.template,frequency_unit:0
+msgid "when required"
+msgstr "quando necessário"
+
+#. module: oemedical
+#: view:oemedical.hospital.bed:0
+#: field:oemedical.hospital.bed,telephone_number:0
+msgid "Telephone Number"
+msgstr "Número de telefone"
+
+#. module: oemedical
+#: selection:oemedical.patient.evaluation,loc_eyes:0
+msgid "Opens eyes spontaneously"
+msgstr "Abre os olhos espontaneamente"
+
+#. module: oemedical
+#: selection:oemedical.patient,marital_status:0
+msgid "Married"
+msgstr "Casado"
+
+#. module: oemedical
+#: view:oemedical.patient.disease:0
+msgid "Oemedical Patient Disease"
+msgstr "Doenças Paciente Oemedical"
+
+#. module: oemedical
+#: help:oemedical.medicament,composition:0
+msgid "Components"
+msgstr "Componentes"
+
+#. module: oemedical
+#: selection:oemedical.patient.disease,status:0
+msgid "acute"
+msgstr "agudo"
+
+#. module: oemedical
+#: model:ir.actions.act_window,name:oemedical.act_open_oemedical_secondary_condition_view
+msgid "Secondary Condition"
+msgstr "Condição secundária"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,whr:0
+msgid "WHR"
+msgstr "WHR"
+
+#. module: oemedical
+#: view:oemedical.family_member:0
+msgid "Oemedical Family_Member"
+msgstr "Oemedical Family_Member"
+
+#. module: oemedical
+#: help:oemedical.hospital.bed,ward:0
+msgid "Ward or room"
+msgstr "Ward ou quarto"
+
+#. module: oemedical
+#: model:ir.ui.menu,name:oemedical.oemedical_patient_disease
+msgid " Patient Disease"
+msgstr " Doenças paciente"
+
+#. module: oemedical
+#: selection:oemedical.appointment,appointment_type:0
+#: selection:oemedical.patient.evaluation,evaluation_type:0
+msgid "Inpatient"
+msgstr "Paciente Internado"
+
+#. module: oemedical
+#: help:oemedical.patient.disease,date_start_treatment:0
+msgid "Start of treatment date"
+msgstr "Data de início da tratamento"
+
+#. module: oemedical
+#: model:ir.actions.act_window,name:oemedical.act_open_oemedical_signs_and_symptoms_view
+msgid "Signs And Symptoms"
+msgstr "Sinais e sintomas"
+
+#. module: oemedical
+#: help:oemedical.medication.template,dose:0
+msgid "Amount of medication (eg, 250 mg) per dose"
+msgstr "Quantidade de medicação (por exemplo, 250 mg) por dose"
+
+#. module: oemedical
+#: selection:oemedical.patient.evaluation,mood:0
+msgid "Fear"
+msgstr "Medo"
+
+#. module: oemedical
+#: view:oemedical.patient:0
+#: field:oemedical.patient,dod:0
+msgid "Date of Death"
+msgstr "Data da Morte"
+
+#. module: oemedical
+#: model:ir.ui.menu,name:oemedical.oemedical_secondary_condition
+msgid " Secondary Condition"
+msgstr " Condição secundária"
+
+#. module: oemedical
+#: selection:oemedical.hospital.bed,bed_type:0
+msgid "Gatch Bed"
+msgstr "Gatch Bed"
+
+#. module: oemedical
+#: model:ir.ui.menu,name:oemedical.oemedical_patient
+msgid " Patient"
+msgstr " Paciente"
+
+#. module: oemedical
+#: help:oemedical.insurance,plan_id:0
+#: help:oemedical.insurance.plan,name:0
+msgid "Insurance company plan"
+msgstr "Plano da empresa de seguros"
+
+#. module: oemedical
+#: help:oemedical.pathology,code:0
+msgid "Specific Code for the Disease (eg, ICD-10)"
+msgstr "Código específico para a doença (por exemplo, CID-10)"
+
+#. module: oemedical
+#: view:oemedical.prescription.order:0
+#: field:oemedical.prescription.order,pharmacy:0
+#: field:res.partner,is_pharmacy:0
+msgid "Pharmacy"
+msgstr "Farmácia"
+
+#. module: oemedical
+#: help:oemedical.patient.medication,is_active:0
+msgid "Check if the patient is currently taking the medication"
+msgstr "Verifique se o paciente está tomando a medicação"
+
+#. module: oemedical
+#: model:ir.actions.act_window,name:oemedical.act_open_oemedical_hospital_building_view
+msgid "Hospital Building"
+msgstr "Edifício Hospital"
+
+#. module: oemedical
+#: view:oemedical.pathology:0
+#: field:oemedical.pathology,category:0
+msgid "Main Category"
+msgstr "Categoria Principal"
+
+#. module: oemedical
+#: help:oemedical.appointment,doctor:0
+msgid "Physician's Name"
+msgstr "Nome do Médico"
+
+#. module: oemedical
+#: model:ir.ui.menu,name:oemedical.oemedical_drug_route
+msgid " Drug Route"
+msgstr " Drogas Route"
+
+#. module: oemedical
+#: selection:oemedical.medication.template,duration_period:0
+msgid "indefinite"
+msgstr "indefinido"
+
+#. module: oemedical
+#: view:oemedical.prescription.line:0
+#: field:oemedical.prescription.line,allow_substitution:0
+msgid "Allow substitution"
+msgstr "Permitir substituição"
+
+#. module: oemedical
+#: view:oemedical.hospital.bed:0
+msgid "Oemedical Hospital Bed"
+msgstr "Oemedical cama de hospital"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,glycemia:0
+msgid "Glycemia"
+msgstr "Glicemia"
+
+#. module: oemedical
+#: view:oemedical.hospital.ward:0
+#: field:oemedical.hospital.ward,number_of_beds:0
+msgid "Number of beds"
+msgstr "Número de camas"
+
+#. module: oemedical
+#: help:oemedical.patient.evaluation,object_recognition:0
+msgid ""
+"Check this box if the patient suffers from any sort of gnosia disorders, "
+"such as agnosia, prosopagnosia ..."
+msgstr ""
+"Marque esta caixa se o paciente sofre de qualquer tipo de distúrbios gnosia, "
+"tais como agnosia, prosopagnosia ..."
+
+#. module: oemedical
+#: selection:oemedical.appointment,appointment_type:0
+#: selection:oemedical.patient.evaluation,evaluation_type:0
+msgid "Ambulatory"
+msgstr "Ambulatório"
+
+#. module: oemedical
+#: view:oemedical.insurance:0
+#: field:oemedical.insurance,member_exp:0
+msgid "Expiration date"
+msgstr "Data de validade"
+
+#. module: oemedical
+#: field:oemedical.hospital.ward,gender:0
+msgid "Gender"
+msgstr "Sexo"
+
+#. module: oemedical
+#: help:oemedical.family,name:0
+msgid "Family code within an operational sector"
+msgstr "Código da família dentro de um setor operacional"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,judgment:0
+msgid "Jugdment"
+msgstr "Jugdment"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,bmi:0
+msgid "Body Mass Index"
+msgstr "Índice de Massa Corporal"
+
+#. module: oemedical
+#: view:oemedical.signs_and_symptoms:0
+#: field:oemedical.signs_and_symptoms,clinical_id:0
+msgid "Sign or Symptom"
+msgstr "Sinal ou sintoma"
+
+#. module: oemedical
+#: model:ir.model,name:oemedical.model_oemedical_vaccination
+msgid "oemedical.vaccination"
+msgstr "oemedical.vaccination"
+
+#. module: oemedical
+#: field:res.partner,is_school:0
+msgid "School"
+msgstr "Escola"
+
+#. module: oemedical
+#: help:oemedical.medication.template,medicament:0
+msgid "Prescribed Medicament"
+msgstr "Medicamento prescrito"
+
+#. module: oemedical
+#: view:oemedical.physician:0
+#: field:oemedical.physician,health_professional:0
+msgid "Health Professional"
+msgstr "Profissional de saúde"
+
+#. module: oemedical
+#: selection:oemedical.patient,marital_status:0
+msgid "Divorced"
+msgstr "Divorciado"
+
+#. module: oemedical
+#: selection:oemedical.medication.template,frequency_unit:0
+msgid "seconds"
+msgstr "segundos"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,calculation_ability:0
+msgid "Calculation Ability"
+msgstr "Capacidade de cálculo"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,next_evaluation:0
+msgid "Next Appointment"
+msgstr "Próximo compromisso"
+
+#. module: oemedical
+#: help:oemedical.patient.medication,adverse_reaction:0
+msgid "Side effects or adverse reactions that the patient experienced"
+msgstr "Os efeitos colaterais ou reações adversas que o paciente apresentou"
+
+#. module: oemedical
+#: view:oemedical.hospital.ward:0
+#: field:oemedical.hospital.ward,guest_sofa:0
+msgid "Guest sofa-bed"
+msgstr "Visitante sofá-cama"
+
+#. module: oemedical
+#: help:oemedical.operational_area,name:0
+msgid "Operational Area of the city or region"
+msgstr "Área Operacional da cidade ou região"
+
+#. module: oemedical
+#: model:ir.actions.act_window,name:oemedical.act_open_oemedical_pathology_view
+#: view:oemedical.diagnostic_hypothesis:0
+#: field:oemedical.diagnostic_hypothesis,pathology_id:0
+#: view:oemedical.secondary_condition:0
+#: field:oemedical.secondary_condition,pathology_id:0
+msgid "Pathology"
+msgstr "Patologia"
+
+#. module: oemedical
+#: view:oemedical.prescription.line:0
+#: field:oemedical.prescription.line,short_comment:0
+msgid "Comment"
+msgstr "Comentar"
+
+#. module: oemedical
+#: selection:oemedical.hospital.bed,bed_type:0
+msgid "Stretcher"
+msgstr "Esticador"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,vocabulary:0
+msgid "Vocabulary"
+msgstr "vocabulário"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,weight:0
+msgid "Weight"
+msgstr "Peso"
+
+#. module: oemedical
+#: selection:oemedical.medication.template,duration_period:0
+msgid "months"
+msgstr "meses"
+
+#. module: oemedical
+#: view:oemedical.occupation:0
+msgid "Oemedical Occupation"
+msgstr "Oemedical Ocupação"
+
+#. module: oemedical
+#: help:oemedical.patient.evaluation,hip:0
+msgid "Hip circumference in centimeters, eg 100"
+msgstr "Circunferência do quadril em centímetros, por exemplo, 100"
+
+#. module: oemedical
+#: field:oemedical.appointment,urgency:0
+msgid "Urgency Level"
+msgstr "Urgência Nível"
+
+#. module: oemedical
+#: model:ir.actions.act_window,name:oemedical.act_open_oemedical_insurance_plan_view
+msgid "Insurance Plan"
+msgstr "Plano de Seguro"
+
+#. module: oemedical
+#: model:ir.actions.act_window,name:oemedical.act_open_oemedical_operational_area_view
+#: view:oemedical.operational_sector:0
+#: field:oemedical.operational_sector,operational_area_id:0
+msgid "Operational Area"
+msgstr "Área Operacional"
+
+#. module: oemedical
+#: selection:oemedical.patient.disease,status:0
+msgid "chronic"
+msgstr "crônico"
+
+#. module: oemedical
+#: view:oemedical.pathology.category:0
+#: field:oemedical.pathology.category,name:0
+msgid "Category Name"
+msgstr "Nome da Categoria"
+
+#. module: oemedical
+#: view:oemedical.prescription.order:0
+msgid "Oemedical Prescription Order"
+msgstr "Oemedical Ordem Prescription"
+
+#. module: oemedical
+#: view:oemedical.patient.medication:0
+#: field:oemedical.patient.medication,discontinued_reason:0
+msgid "Reason for discontinuation"
+msgstr "Motivo para interrupção"
+
+#. module: oemedical
+#: help:oemedical.patient.evaluation,tag:0
+msgid "Triacylglycerol(triglicerides) level. Can be approximative"
+msgstr "Nível de triglicerídeos (triglicérides). Pode ser aproximada"
+
+#. module: oemedical
+#: help:oemedical.patient.disease,date_stop_treatment:0
+msgid "End of treatment date"
+msgstr "Fim da data tratamento"
+
+#. module: oemedical
+#: selection:oemedical.appointment,urgency:0
+#: selection:oemedical.patient.evaluation,mood:0
+msgid "Normal"
+msgstr "Normal"
+
+#. module: oemedical
+#: model:ir.actions.act_window,name:oemedical.act_open_oemedical_medication_dosage_view
+msgid "Medication Dosage"
+msgstr "Dosagem da medicação"
+
+#. module: oemedical
+#: model:ir.ui.menu,name:oemedical.oemedical_hospital_building
+msgid " Hospital Building"
+msgstr " Edifício Hospital"
+
+#. module: oemedical
+#: help:oemedical.hospital.ward,name:0
+msgid "Ward / Room code"
+msgstr "Ward / Room código"
+
+#. module: oemedical
+#: view:oemedical.medication.template:0
+#: field:oemedical.medication.template,admin_times:0
+msgid "Admin hours"
+msgstr "Horas de Admin"
+
+#. module: oemedical
+#: model:ir.actions.act_window,name:oemedical.act_open_oemedical_directions_view
+msgid "Directions"
+msgstr "Instruções"
+
+#. module: oemedical
+#: model:ir.ui.menu,name:oemedical.oemedical_procedure
+msgid " Procedure"
+msgstr " Procedimento"
+
+#. module: oemedical
+#: model:ir.ui.menu,name:oemedical.oemedical_diagnostic_hypothesis
+msgid " Diagnostic Hypothesis"
+msgstr " Hipótese diagnóstica"
+
+#. module: oemedical
+#: view:oemedical.procedure:0
+msgid "Oemedical Procedure"
+msgstr "Procedimento Oemedical"
+
+#. module: oemedical
+#: field:oemedical.pathology,groups:0
+msgid "Groups"
+msgstr "Groups"
+
+#. module: oemedical
+#: selection:oemedical.hospital.ward,state:0
+msgid "Beds available"
+msgstr "Leitos disponíveis"
+
+#. module: oemedical
+#: model:ir.ui.menu,name:oemedical.oemedical_patient_medication
+msgid " Patient Medication"
+msgstr " Medicação paciente"
+
+#. module: oemedical
+#: model:ir.actions.act_window,name:oemedical.act_open_oemedical_pathology_group_view
+msgid "Pathology Group"
+msgstr "Patologia Grupo"
+
+#. module: oemedical
+#: model:ir.model,name:oemedical.model_oemedical_patient_medication
+msgid "oemedical.patient.medication"
+msgstr "oemedical.patient.medication"
+
+#. module: oemedical
+#: model:ir.model,name:oemedical.model_oemedical_patient_evaluation
+msgid "oemedical.patient.evaluation"
+msgstr "oemedical.patient.evaluation"
+
+#. module: oemedical
+#: view:oemedical.patient:0
+#: field:oemedical.patient,critical_info:0
+msgid "Important disease, allergy or procedures information"
+msgstr "Importante doença, alergia ou procedimentos de informação"
+
+#. module: oemedical
+#: help:oemedical.patient.disease,age:0
+msgid "Patient age at the moment of the diagnosis. Can be estimative"
+msgstr "Idade do paciente no momento do diagnóstico. Pode ser estimativa"
+
+#. module: oemedical
+#: view:oemedical.hospital.ward:0
+#: field:oemedical.hospital.ward,private_bathroom:0
+msgid "Private Bathroom"
+msgstr "Casa de banho privada"
+
+#. module: oemedical
+#: help:res.partner,alias:0
+msgid "Common name that the Party is reffered"
+msgstr "Nome comum que o Partido está reffered"
+
+#. module: oemedical
+#: view:oemedical.prescription.order:0
+#: field:oemedical.prescription.order,prescription_date:0
+msgid "Prescription Date"
+msgstr "Prescrição Data"
+
+#. module: oemedical
+#: field:oemedical.patient,partner_id:0
+msgid "Related Partner"
+msgstr "Parceiro Relacionado"
+
+#. module: oemedical
+#: view:oemedical.patient.disease:0
+#: field:oemedical.patient.disease,is_allergy:0
+msgid "Allergic Disease"
+msgstr "Doenças Alérgicas"
+
+#. module: oemedical
+#: help:oemedical.patient,partner_id:0
+msgid "Partner-related data of the patient"
+msgstr "Dados sócio-relacionados do paciente"
+
+#. module: oemedical
+#: view:oemedical.vaccination:0
+#: field:oemedical.vaccination,vaccine_lot:0
+msgid "Lot Number"
+msgstr "Número do Lote"
+
+#. module: oemedical
+#: view:oemedical.patient:0
+#: field:oemedical.patient,general_info:0
+msgid "General Information"
+msgstr "General Information"
+
+#. module: oemedical
+#: selection:oemedical.signs_and_symptoms,sign_or_symptom:0
+msgid "Symptom"
+msgstr "Sintoma"
+
+#. module: oemedical
+#: view:oemedical.pathology:0
+#: field:oemedical.pathology,chromosome:0
+msgid "Affected Chromosome"
+msgstr "Cromossomo afetado"
+
+#. module: oemedical
+#: help:oemedical.medicament,pregnancy:0
+msgid "Warnings for Pregnant Women"
+msgstr "Avisos para Gestantes"
+
+#. module: oemedical
+#: model:ir.actions.act_window,name:oemedical.act_open_oemedical_insurance_view
+#: view:oemedical.patient:0
+#: field:oemedical.patient,current_insurance:0
+msgid "Insurance"
+msgstr "Seguro"
+
+#. module: oemedical
+#: help:oemedical.patient.evaluation,memory:0
+msgid ""
+"Check this box if the patient has problems in short or long term memory"
+msgstr ""
+"Marque esta caixa se o paciente tem problemas na memória de curto ou longo "
+"prazo"
+
+#. module: oemedical
+#: model:ir.model,name:oemedical.model_oemedical_physician
+msgid "oemedical.physician"
+msgstr "oemedical.physician"
+
+#. module: oemedical
+#: constraint:oemedical.medicament.category:0
+#: constraint:oemedical.pathology.category:0
+msgid ""
+"Error ! You cannot create recursive \n"
+"Category."
+msgstr ""
+"Erro! Você não pode criar recursiva \n"
+"Categoria."
+
+#. module: oemedical
+#: model:ir.model,name:oemedical.model_oemedical_appointment
+msgid "oemedical.appointment"
+msgstr "oemedical.appointment"
+
+#. module: oemedical
+#: view:oemedical.vaccination:0
+#: field:oemedical.vaccination,observations:0
+msgid "Observations"
+msgstr "Observações"
+
+#. module: oemedical
+#: help:oemedical.pathology,chromosome:0
+msgid "chromosome number"
+msgstr "número de cromossomos"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,memory:0
+msgid "Memory"
+msgstr "Memória"
+
+#. module: oemedical
+#: view:oemedical.pathology.group:0
+#: field:oemedical.pathology.group,desc:0
+msgid "Short Description"
+msgstr "Curta Descrição"
+
+#. module: oemedical
+#: view:oemedical.medicament:0
+#: field:oemedical.medicament,presentation:0
+msgid "Presentation"
+msgstr "Apresentação"
+
+#. module: oemedical
+#: model:ir.model,name:oemedical.model_oemedical_family_member
+msgid "oemedical.family_member"
+msgstr "oemedical.family_member"
+
+#. module: oemedical
+#: selection:oemedical.patient,marital_status:0
+msgid "Single"
+msgstr "Único"
+
+#. module: oemedical
+#: selection:oemedical.patient.evaluation,loc_verbal:0
+msgid "Oriented, converses normally"
+msgstr "Orientado, dialoga normalmente"
+
+#. module: oemedical
+#: model:ir.model,name:oemedical.model_oemedical_prescription_order
+msgid "oemedical.prescription.order"
+msgstr "oemedical.prescription.order"
+
+#. module: oemedical
+#: model:ir.actions.act_window,name:oemedical.act_open_oemedical_medicament_view
+#: view:oemedical.medication.template:0
+#: field:oemedical.medication.template,medicament:0
+#: field:product.product,is_medicament:0
+msgid "Medicament"
+msgstr "Medicamento"
+
+#. module: oemedical
+#: field:oemedical.patient.evaluation,actions:0
+msgid "Procedures"
+msgstr "Procedures"
+
+#. module: oemedical
+#: selection:oemedical.hospital.ward,gender:0
+msgid "Women Ward"
+msgstr "Mulheres enfermaria"
+
+#. module: oemedical
+#: help:oemedical.patient.disease,doctor:0
+msgid "Physician who treated or diagnosed the patient"
+msgstr "Médico que tratou ou diagnosticado o paciente"
+
+#. module: oemedical
+#: selection:oemedical.patient,blood_type:0
+msgid "AB"
+msgstr "AB"
+
+#. module: oemedical
+#: view:oemedical.pathology.group:0
+msgid "Oemedical Pathology Group"
+msgstr "Oemedical Patologia Grupo"
+
+#. module: oemedical
+#: field:oemedical.patient,photo:0
+msgid "Picture"
+msgstr "Quadro"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,knowledge_current_events:0
+msgid "Knowledge of Current Events"
+msgstr "Conhecimento dos acontecimentos atuais"
+
+#. module: oemedical
+#: selection:oemedical.patient.evaluation,loc_motor:0
+msgid "Localizes painful stimuli"
+msgstr "Localiza estímulos dolorosos"
+
+#. module: oemedical
+#: model:ir.model,name:oemedical.model_oemedical_drug_form
+msgid "oemedical.drug.form"
+msgstr "oemedical.drug.form"
+
+#. module: oemedical
+#: help:oemedical.physician,specialty:0
+msgid "Specialty Code"
+msgstr "Código especialidade"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,malnutrition:0
+msgid "Malnutrition"
+msgstr "Subnutrição"
+
+#. module: oemedical
+#: view:oemedical.patient.evaluation:0
+#: field:oemedical.patient.evaluation,systolic:0
+msgid "Systolic Pressure"
+msgstr "Pressão Sistólica"
+
+#. module: oemedical
+#: help:oemedical.pathology.group,code:0
+msgid ""
+"for example MDG6 code will contain the Millennium Development Goals # 6 "
+"diseases : Tuberculosis, Malaria and HIV/AIDS"
+msgstr ""
+"por exemplo MDG6 código conterá os Objetivos de Desenvolvimento do Milênio n "
+"º 6 doenças: tuberculose, malária e HIV / AIDS"
+
+#. module: oemedical
+#: help:oemedical.hospital.unit,name:0
+msgid "Name of the unit, eg Neonatal, Intensive Care, ..."
+msgstr "Nome da unidade, por exemplo, Neonatal, Intensive Care, ..."
+
+#. module: oemedical
+#: field:res.partner,is_person:0
+msgid "Person"
+msgstr "Pessoa"
+
+#. module: oemedical
+#: help:oemedical.medication.template,frequency:0
+msgid ""
+"Time in between doses the patient must wait (ie, for 1 pill each 8 hours, "
+"put here 8 and select \"hours\" in the unit field"
+msgstr ""
+"Tempo entre as doses, o paciente deve esperar (ou seja, para um comprimido a "
+"cada 8 horas, coloque aqui 8 e selecione \"horas\" no campo da unidade"
+
+#. module: oemedical
+#: help:oemedical.patient.evaluation,judgment:0
+msgid ""
+"Check this box if the patient can not interpret basic scenario solutions"
+msgstr ""
+"Marque esta caixa se o paciente não pode interpretar soluções básicas cenário"
+
+#. module: oemedical
+#: view:oemedical.hospital.ward:0
+#: field:oemedical.hospital.ward,private:0
+#: selection:oemedical.insurance,insurance_type:0
+#: selection:res.partner,insurance_company_type:0
+msgid "Private"
+msgstr "Privado"
+
+#. module: oemedical
+#: view:oemedical.patient.disease:0
+#: field:oemedical.patient.disease,healed_date:0
+msgid "Healed"
+msgstr "Curado"
+
+#. module: oemedical
+#: view:oemedical.hospital.ward:0
+msgid "Oemedical Hospital Ward"
+msgstr "Oemedical Enfermaria"
+
+#. module: oemedical
+#: view:oemedical.prescription.line:0
+msgid "Oemedical Prescription Line"
+msgstr "Linha Prescription Oemedical"
+
+#. module: oemedical
+#: model:ir.model,name:oemedical.model_oemedical_occupation
+msgid "oemedical.occupation"
+msgstr "oemedical.occupation"

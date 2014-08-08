@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data>
+        <record model="ir.ui.view" id="view_oemedical_patient_form_radiology">
+			<field name="name">Radiology</field>
+			<field name="model">oemedical.patient</field>
+			<field name="type">form</field>
+            <field name="priority" eval="5"/>
+			<field name="inherit_id" ref="oemedical.view_oemedical_patient_form"/>
+			<field name="arch" type="xml">
+				<xpath expr="//notebook/page[@string='Misc']" position="after">
+                	<page string="Radiology">
+				        <field name="radio_scan_ids" colspan="4">
+				        	<tree string="Radio scans">
+				        		<field name="name" required="1"/>
+				        		<field name="doctor_id"/>
+				        		<field name="date"/>
+				        		<field name="state"/>
+			        		</tree>
+			        		<form string="Radio scans">
+				        		<field name="name"/>
+				        		<field name="doctor_id"/>
+				        		<field name="date"/>
+				        		<field name="state"/>
+			        		</form>
+		        		</field>
+					</page>
+				</xpath>
+            </field>
+		</record>
+        <!--<record model="ir.ui.view" id="view_oemedical_patient_form_radiology">
+            <field name="name">oemedical.patient.view.inherit.radiology</field>
+            <field name="model">oemedical.patient</field>
+            <field name="inherit_id" ref="oemedical.view_oemedical_patient_form" />
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <data>
+                    <xpath expr="//notebook/page[@string='Misc']" position="before">
+                        <page string="Radiology" id="page_radiology">
+                            <notebook>
+                                <page string="Main" id="page_ses_main_">
+                                    <group colspan="4" col="4" id="group_ses_holder2">
+                                        <field name="ses"/>
+                                        <field name="housing"/>
+                                        <field name="education"/>
+&lt;!&ndash;                                        <field name="occupation"/>&ndash;&gt;
+                                    </group>
+                                    <newline/>
+                                    <group col="6" id="group_socioecomics_work_">
+                                        <newline/>
+                                        <field name="works_at_home"/>
+                                        <field name="hours_outside"/>
+                                        <field name="hostile_area"/>
+                                    </group>
+                                    <newline/>
+                                    <newline/>
+                                    <group string="Notes" id="group_ses_notes_">
+                                        <field colspan="4" name="ses_notes"/>
+                                    </group>
+                                </page>
+                            </notebook>
+                        </page>
+                    </xpath>
+                </data>
+            </field>
+        </record>-->
+
+	</data>
+</openerp>

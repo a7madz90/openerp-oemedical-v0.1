@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data>
+        <record model="ir.ui.view" id="view_oemedical_patient_form_evaluation_history">
+			<field name="name">Evaluations</field>
+			<field name="model">oemedical.patient</field>
+			<field name="type">form</field>
+            <field name="priority" eval="5"/>
+			<field name="inherit_id" ref="oemedical.view_oemedical_patient_form"/>
+			<field name="arch" type="xml">
+				<xpath expr="//notebook/page[@string='Medication']" position="before">
+                	<page string="Evaluations">
+				        <field name="evaluation_ids" colspan="4">
+				        	<tree string="Evaluations">
+				        		<field name="chief_complaint" required="1"/>
+                                <field name="doctor"/>
+                                <field name="evaluation_date"/>
+				        		<field name="evaluation_type"/>
+                                <field name="evaluation_start" required="1"/>
+                                <field name="evaluation_endtime" required="1"/>
+			        		</tree>
+			        		<form string="Evaluations">
+                                <field name="patient_id" />
+                                <field name="information_source" />
+                                <field name="info_diagnosis" />
+                                <field name="orientation" />
+                                <field name="weight" />
+                                <!--field name="evaluation_type"/ -->
+                                <field name="malnutrition" />
+                                <!--field name="actions"/ -->
+                                <field name="height" />
+                                <field name="dehydration" />
+                                <field name="tag" />
+                                <field name="tremor" />
+                                <field name="present_illness" />
+                                <field name="evaluation_date" />
+                                <field name="evaluation_start" />
+                                <field name="loc" />
+                                <field name="user_id" />
+                                <!--field name="mood"/ -->
+                                <field name="doctor" />
+                                <field name="knowledge_current_events" />
+                                <field name="next_evaluation" />
+                                <!--field name="signs_and_symptoms"/ -->
+                                <!--field name="loc_motor"/ -->
+                                <field name="reliable_info" />
+                                <field name="systolic" />
+                                <field name="vocabulary" />
+                                <field name="praxis" />
+                                <field name="hip" />
+                                <field name="memory" />
+                                <field name="abstraction" />
+                                <field name="patient_id" />
+                                <field name="derived_from" />
+                                <field name="specialty" />
+                                <!--field name="loc_verbal"/ -->
+                                <field name="glycemia" />
+                                <field name="head_circumference" />
+                                <field name="bmi" />
+                                <field name="respiratory_rate" />
+                                <field name="derived_to" />
+                                <field name="hba1c" />
+                                <field name="violent" />
+                                <field name="directions" />
+                                <field name="evaluation_summary" />
+                                <field name="cholesterol_total" />
+                                <!--field name="diagnostic_hypothesis"/ -->
+                                <field name="judgment" />
+                                <field name="temperature" />
+                                <field name="osat" />
+                                <field name="secondary_conditions"/>
+                                <field name="evaluation_endtime" />
+                                <field name="notes" />
+                                <field name="calculation_ability" />
+                                <field name="bpm" />
+                                <field name="chief_complaint" />
+                                <!--field name="loc_eyes"/ -->
+                                <field name="abdominal_circ" />
+                                <field name="object_recognition" />
+                                <field name="diagnosis" />
+                                <field name="whr" />
+                                <field name="ldl" />
+                                <field name="notes_complaint" />
+                                <field name="hdl" />
+                                <field name="diastolic" />
+			        		</form>
+		        		</field>
+					</page>
+				</xpath>
+            </field>
+		</record>
+
+	</data>
+</openerp>
