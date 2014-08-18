@@ -46,7 +46,8 @@
 <!--Configurations-->
 
 		<menuitem id="oemedical_root_sub" name="Configuration"
-			parent="oemedical_root" sequence="100" />
+			parent="oemedical_root" sequence="100"
+            groups="group_oemedical_manager" />
 
 <!--       Laboratory       -->
 		<menuitem name="Laboratory" id="oemedical_conf_laboratory" 

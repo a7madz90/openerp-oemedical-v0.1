@@ -90,6 +90,8 @@ OeMedical at a glance:
     "website": "http://launchpad.net/oemedical",
     "licence": "AGPL v3",
     "data": [
+        'security/oemedical_security.xml',
+        'security/ir.model.access.csv',
         'sequence/oemedical_sequence.xml',
         'oemedical_secondary_condition/oemedical_secondary_condition_view.xml',
         'oemedical_pathology_category/oemedical_pathology_category_view.xml',
@@ -143,8 +145,6 @@ OeMedical at a glance:
         'oemedical_radiology/oemedical_radiology_view.xml',
         'oemedical_menu.xml',
         'oemedical_lab/oemedical_lab_view.xml',
-        'security/oemedical_security.xml',
-        'security/ir.model.access.csv',
     ],
     "demo": [
 
