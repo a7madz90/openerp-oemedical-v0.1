@@ -211,6 +211,7 @@ class OeMedicalPatientEvaluation(osv.Model):
         'diastolic': fields.integer(string='Diastolic Pressure'),
     }
     _defaults={
+        #'patient_id' : lambda self, cr, uid, context : context['patient_id'] if context and 'patient_id' in context else None
         # 'evaluation_date': lambda
     }
 

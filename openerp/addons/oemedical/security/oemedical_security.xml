@@ -20,15 +20,7 @@
         <field name="category_id" ref="module_category_oemedical"/>
     </record>
 
-    <record id="group_oemedical_manager" model="res.groups">
-        <field name="name">Manager</field>
-        <field name="category_id" ref="module_category_oemedical"/>
-        <field name="implied_ids" eval="[(4, ref('group_oemedical_phys_sec_common')),
-                    (4, ref('group_oemedical_physician')), (4, ref('group_oemedical_secretary'))]"/>
-        <field name="users" eval="[(4, ref('base.user_root'))]"/>
-    </record>
-
-    <record id="group_oemedical_physician" model="res.groups">
+        <record id="group_oemedical_physician" model="res.groups">
         <field name="name">Physician</field>
         <field name="category_id" ref="module_category_oemedical"/>
         <field name="implied_ids" eval="[(4, ref('group_oemedical_phys_sec_common'))]"/>
@@ -38,6 +30,14 @@
         <field name="name">Secretary</field>
         <field name="category_id" ref="module_category_oemedical"/>
         <field name="implied_ids" eval="[(4, ref('group_oemedical_phys_sec_common'))]"/>
+    </record>
+
+    <record id="group_oemedical_manager" model="res.groups">
+        <field name="name">Manager</field>
+        <field name="category_id" ref="module_category_oemedical"/>
+        <field name="implied_ids" eval="[(4, ref('group_oemedical_phys_sec_common')),
+                    (4, ref('group_oemedical_physician')), (4, ref('group_oemedical_secretary'))]"/>
+        <field name="users" eval="[(4, ref('base.user_root'))]"/>
     </record>
 
 </data>
